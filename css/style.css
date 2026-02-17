@@ -1,3 +1,27 @@
+@media (max-width: 968px) {
+    .nav__dropdown {
+        position: static !important;
+        left: 0 !important;
+        right: 0 !important;
+        min-width: 100% !important;
+        transform: none !important;
+        box-shadow: none !important;
+        border-radius: var(--radius-md) !important;
+        background: var(--clr-white) !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        z-index: 1001 !important;
+    }
+    .nav__item--dropdown[data-open="true"] .nav__dropdown {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+        max-height: 600px !important;
+        padding: var(--space-sm) 0 var(--space-sm) var(--space-lg) !important;
+        margin-bottom: var(--space-sm) !important;
+        z-index: 1001 !important;
+    }
+}
 /* ═══════════════════════════════════════════════════════
    ANGELIC PHOTO - STYLE.CSS
    Mobile-first responsive design
@@ -1149,16 +1173,22 @@ em {
     /* Mobile dropdown */
     .nav__dropdown {
         position: static;
+        left: 0;
+        right: 0;
         transform: none;
         min-width: 100%;
-        background: var(--clr-bg-soft);
+        background: var(--clr-white);
         border: none;
         border-radius: var(--radius-md);
         box-shadow: none;
-        padding: 0;
+        padding: 0 0 0 0;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.4s ease, opacity var(--transition), padding var(--transition);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        z-index: 1001;
+        transition: max-height 0.4s ease, opacity var(--transition), padding var(--transition), visibility var(--transition);
     }
 
     .nav__item--dropdown[data-open="true"] .nav__dropdown {
@@ -1166,8 +1196,9 @@ em {
         visibility: visible;
         pointer-events: auto;
         max-height: 600px;
-        padding: var(--space-sm) 0;
+        padding: var(--space-sm) 0 var(--space-sm) var(--space-lg);
         margin-bottom: var(--space-sm);
+        z-index: 1001;
     }
 
     .nav__dropdown-link {
