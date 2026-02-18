@@ -826,7 +826,7 @@ em {
     font-weight: var(--fw-medium);
 }
 
-.footer h4 {
+.footer h3 {
     color: var(--clr-white);
     font-family: var(--ff-heading);
     font-size: var(--fs-base);
