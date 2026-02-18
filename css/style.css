@@ -630,7 +630,7 @@ em {
 
 .services-preview__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--space-xl);
 }
 
@@ -2822,7 +2822,8 @@ em {
    ═══════════════════════════════════════════════════════ */
 
 /* Service cards */
-.service-card__img[src="images/trudnica.jpg"]    { object-position: 44.6% 100.0%; }
+.service-card__img[src="images/trudnica7.JPG"]   { object-position: 50% 20%; }
+.service-card__img[src="images/porodicno.JPG"]   { object-position: 50% 15%; }
 .service-card__img[src="images/vencanje.jpg"]    { object-position: 50.0% 62.1%; }
 .service-card__img[src="images/krstenje.jpg"]    { object-position: 50.0% 9.8%; }
 .service-card__img[src="images/rodjendan.jpg"]   { object-position: 46.4% 14.6%; }

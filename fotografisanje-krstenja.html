@@ -169,6 +169,7 @@
                         <ul class="nav__dropdown" role="menu">
                             <li role="menuitem"><a href="/fotografisanje-trudnica.html" class="nav__dropdown-link">Fotografisanje trudnica</a></li>
                             <li role="menuitem"><a href="/fotografisanje-beba.html" class="nav__dropdown-link">Fotografisanje beba</a></li>
+                            <li role="menuitem"><a href="/porodicno-fotografisanje.html" class="nav__dropdown-link">Porodično fotografisanje</a></li>
                             <li role="menuitem"><a href="/fotografisanje-vencanja.html" class="nav__dropdown-link">Fotografisanje venčanja</a></li>
                             <li role="menuitem"><a href="/fotografisanje-krstenja.html" class="nav__dropdown-link nav__dropdown-link--active" aria-current="page">Fotografisanje krštenja</a></li>
                             <li role="menuitem"><a href="/fotografisanje-rodjendana.html" class="nav__dropdown-link">Fotografisanje rođendana</a></li>
@@ -368,12 +369,12 @@
                     <h2 class="section-header__heading" id="gallery-heading">Galerija krštenja</h2>
                     <p class="section-header__desc">Svako krštenje je posebna priča puna emocija, vere i ljubavi. Fotografije sa krštenja u Pančevu, Beogradu, Novom Sadu i širom Srbije.</p>
                 </div>
-                <div class="gallery-grid">
-                    <div class="gallery-grid__item gallery-grid__item--tall">
+                <div class="gallery-masonry">
+                    <div class="gallery-masonry__item">
                         <img
                             src="images/krstenje.jpg"
                             alt="Unutrašnjost crkve - sveto mesto za krštenje"
-                            class="gallery-grid__img"
+                            class="gallery-masonry__img"
                             loading="lazy"
                             decoding="async"
                         >
@@ -391,6 +392,33 @@
                 <img src="" alt="" class="lightbox__img" id="lightbox-img">
             </div>
         </div>
+
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- TESTIMONIJAL                                -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section class="service-testimonial" aria-label="Utisak klijenta">
+            <div class="container">
+                <blockquote class="testimonial-quote">
+                    <svg class="testimonial-quote__icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                        <path d="M14 28c-3.3 0-6-2.7-6-6 0-6.6 5.4-12 12-12v4c-4.4 0-8 3.6-8 8h2c3.3 0 6 2.7 6 6s-2.7 6-6 6zm20 0c-3.3 0-6-2.7-6-6 0-6.6 5.4-12 12-12v4c-4.4 0-8 3.6-8 8h2c3.3 0 6 2.7 6 6s-2.7 6-6 6z" fill="#b8860b" opacity="0.15"/>
+                    </svg>
+                    <p class="testimonial-quote__text">
+                        „Krštenje našeg sina je bio emotivan dan i Anđela je uhvatila svaki poseban trenutak. U crkvi je bila potpuno neprimetna, a opet - svaka važna scena je tu na fotografijama. Na slavlju je bilo još lepše jer je uhvatila sve te spontane momente sa porodicom. Fotografije su predivne, preporučujemo svima!"
+                    </p>
+                    <footer class="testimonial-quote__footer">
+                        <cite class="testimonial-quote__author">- Ana i Nikola, Pančevo</cite>
+                        <div class="testimonial-quote__stars" aria-label="Ocena: 5 od 5 zvezdica">
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
+                        </div>
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
 
 
         <!-- ═══════════════════════════════════════════ -->
@@ -528,33 +556,6 @@
 
 
         <!-- ═══════════════════════════════════════════ -->
-        <!-- TESTIMONIJAL                                -->
-        <!-- ═══════════════════════════════════════════ -->
-        <section class="service-testimonial" aria-label="Utisak klijenta">
-            <div class="container">
-                <blockquote class="testimonial-quote">
-                    <svg class="testimonial-quote__icon" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-                        <path d="M14 28c-3.3 0-6-2.7-6-6 0-6.6 5.4-12 12-12v4c-4.4 0-8 3.6-8 8h2c3.3 0 6 2.7 6 6s-2.7 6-6 6zm20 0c-3.3 0-6-2.7-6-6 0-6.6 5.4-12 12-12v4c-4.4 0-8 3.6-8 8h2c3.3 0 6 2.7 6 6s-2.7 6-6 6z" fill="#b8860b" opacity="0.15"/>
-                    </svg>
-                    <p class="testimonial-quote__text">
-                        „Krštenje našeg sina je bio emotivan dan i Anđela je uhvatila svaki poseban trenutak. U crkvi je bila potpuno neprimetna, a opet - svaka važna scena je tu na fotografijama. Na slavlju je bilo još lepše jer je uhvatila sve te spontane momente sa porodicom. Fotografije su predivne, preporučujemo svima!"
-                    </p>
-                    <footer class="testimonial-quote__footer">
-                        <cite class="testimonial-quote__author">- Ana i Nikola, Pančevo</cite>
-                        <div class="testimonial-quote__stars" aria-label="Ocena: 5 od 5 zvezdica">
-                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 20 20" fill="#b8860b" aria-hidden="true"><path d="M10 1l2.4 5.9 6.4.5-4.9 4.2 1.5 6.3L10 14.6l-5.4 3.3 1.5-6.3L1.2 7.4l6.4-.5z"/></svg>
-                        </div>
-                    </footer>
-                </blockquote>
-            </div>
-        </section>
-
-
-        <!-- ═══════════════════════════════════════════ -->
         <!-- FAQ                                         -->
         <!-- ═══════════════════════════════════════════ -->
         <section class="service-faq" id="faq" aria-labelledby="faq-heading">
@@ -689,6 +690,7 @@
                 <ul>
                     <li><a href="/fotografisanje-trudnica.html">Fotografisanje trudnica</a></li>
                     <li><a href="/fotografisanje-beba.html">Fotografisanje beba</a></li>
+                    <li><a href="/porodicno-fotografisanje.html">Porodično fotografisanje</a></li>
                     <li><a href="/fotografisanje-vencanja.html">Venčanja</a></li>
                     <li><a href="/fotografisanje-krstenja.html">Krštenja</a></li>
                     <li><a href="/fotografisanje-rodjendana.html">Rođendani</a></li>
