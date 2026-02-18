@@ -1,71 +1,309 @@
-# Angelic Photo — Profesionalni fotograf u Pančevu, Srbija
+# Angelic Photo
 
-> Angelic Photo je profesionalni fotografski studio sa sedištem u Pančevu. Fotografkinja Anđela pruža usluge fotografisanja u studiju u Pančevu, kao i na terenu širom Srbije — Beograd, Novi Sad i svi drugi gradovi.
+> Angelic Photo je profesionalni fotografski studio sa sedištem u Pančevu, Srbija. Fotografkinja Anđela pruža 9 vrsta fotografskih usluga u studiju u Pančevu, kao i na terenu širom Srbije (Beograd, Novi Sad i svi drugi gradovi). Poznata je po toplim, emocionalnim i prirodnim fotografijama.
 
-## Usluge i cene
+- Sajt: https://angelicphoto.rs
+- Cenovnik (sve cene): https://angelicphoto.rs/cenovnik.html
+- O meni: https://angelicphoto.rs/o-meni.html
 
-### Fotografisanje trudnica
-- Studio sesija: 50€ (15 obrađenih fotografija)
-- Proširena sesija: 80€ (25 obrađenih fotografija)
-- Premium sesija: 120€ (35 obrađenih fotografija + kozmetičar + stilista)
-- Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
+---
 
-### Fotografisanje beba
-- Studio sesija: 50€ (15 obrađenih fotografija)
-- Proširena sesija: 80€ (25 obrađenih fotografija)
-- Premium sesija: 120€ (35 obrađenih fotografija + rekviziti)
-- Stranica: https://angelicphoto.rs/fotografisanje-beba.html
+## Fotografisanje trudnica
 
-### Porodično fotografisanje
-- Studio sesija: 50€ (20 obrađenih fotografija)
-- Proširena sesija: 80€ (30 obrađenih fotografija)
-- Premium sesija: 120€ (40 obrađenih fotografija + stilista + lokacija po izboru)
-- Stranica: https://angelicphoto.rs/porodicno-fotografisanje.html
+Nežne i emotivne fotografije trudničkog perioda. U studiju u Pančevu ili na lokaciji po izboru.
+Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
 
-### Fotografisanje venčanja
-- Osnovna pokrivenost: 250€ (100 obrađenih fotografija)
-- Puna pokrivenost: 400€ (200 obrađenih fotografija)
-- Premium paket: 600€ (300+ fotografija + album + drone)
-- Stranica: https://angelicphoto.rs/fotografisanje-vencanja.html
+### Studio sesija
+- Cena: 50€
+- Broj fotografija: 20 profesionalno obrađenih
+- Lokacija: studio u Pančevu
+- Uključeno: ručna obrada svake slike, pomoć pri poziranju, digitalna dostava u HD rezoluciji
+- Rok isporuke: 5-7 dana
+- Napomena: moguća i lokacija po izboru uz dodatne putne troškove
 
-### Fotografisanje krštenja
-- Osnovna pokrivenost: 100€ (50 obrađenih fotografija)
-- Proširena pokrivenost: 150€ (80 obrađenih fotografija)
-- Premium paket: 200€ (120 fotografija + foto album)
-- Stranica: https://angelicphoto.rs/fotografisanje-krstenja.html
+### Proširena sesija (najpopularniji)
+- Cena: 70€
+- Broj fotografija: 30 profesionalno obrađenih
+- Lokacija: studio ili lokacija po izboru
+- Uključeno: više promena outfita, pomoć pri poziranju, partner i deca dobrodošli, ekspresna obrada
+- Rok isporuke: 5 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
 
-### Fotografisanje rođendana
-- Osnovna pokrivenost: 80€ (40 obrađenih fotografija)
-- Proširena pokrivenost: 120€ (70 obrađenih fotografija)
-- Premium paket: 180€ (100+ fotografija + foto album)
-- Stranica: https://angelicphoto.rs/fotografisanje-rodjendana.html
+### Premium paket
+- Cena: 100€
+- Broj fotografija: 40 profesionalno obrađenih
+- Lokacija: studio i/ili lokacija po izboru
+- Uključeno: neograničen broj promena outfita, partner i deca uključeni, 5 štampanih fotografija 20x30cm, ekspresna obrada
+- Rok isporuke: 2 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
 
-### Biznis portreti
-- Osnovna sesija: 50€ (5 obrađenih portreta)
-- Proširena sesija: 80€ (10 obrađenih portreta + lifestyle)
-- Korporativni paket: 150€ (20 portreta + grupne fotografije + branding)
-- Stranica: https://angelicphoto.rs/biznis-portreti.html
+---
 
-### Fotografisanje proizvoda
-- Osnovni paket: 5€ po proizvodu (bela pozadina, 2 ugla)
-- Prošireni paket: 10€ po proizvodu (stilizovano, 4 ugla)
-- Premium paket: 15€ po proizvodu (lifestyle + studijsko)
-- Stranica: https://angelicphoto.rs/fotografisanje-proizvoda.html
+## Fotografisanje beba
 
-### Modeling fotografisanje
-- Portfolio sesija: 80€ (15 obrađenih fotografija)
-- Proširena sesija: 120€ (25 obrađenih fotografija + 2 lokacije)
-- Premium sesija: 200€ (40 obrađenih fotografija + profesionalni MUA)
-- Stranica: https://angelicphoto.rs/modeling-fotografisanje.html
+Nežne fotografije vaših najmanjih. Bez žurbe, beba diktira tempo.
+Stranica: https://angelicphoto.rs/fotografisanje-beba.html
 
-## Kontakt informacije
+### Studio sesija
+- Cena: 50€
+- Broj fotografija: 20 profesionalno obrađenih
+- Lokacija: studio u Pančevu
+- Uključeno: neograničeno vreme (beba diktira tempo), 2 rekvizita po izboru, ručna obrada svake slike, digitalna dostava u HD rezoluciji
+- Rok isporuke: 7 dana
+- Napomena: moguća i lokacija po izboru uz doplatu za putne troškove
+
+### Proširena sesija (najpopularniji)
+- Cena: 70€
+- Broj fotografija: 30 profesionalno obrađenih
+- Lokacija: studio ili lokacija po izboru
+- Uključeno: neograničeno vreme, 4 rekvizita po izboru, porodične fotografije uključene, ekspresna obrada
+- Rok isporuke: 5 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
+
+### Premium paket
+- Cena: 100€
+- Broj fotografija: 40 profesionalno obrađenih
+- Lokacija: studio i/ili lokacija po izboru
+- Uključeno: svi rekviziti i pozadine uključeni, porodične fotografije uključene, 5 štampanih fotografija 20x30cm, ekspresna obrada
+- Rok isporuke: 2 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
+
+---
+
+## Porodično fotografisanje
+
+Prirodne i tople porodične fotografije. Od beba do baka i deka, uključujući kućne ljubimce.
+Stranica: https://angelicphoto.rs/porodicno-fotografisanje.html
+
+### Studio sesija
+- Cena: 50€
+- Broj fotografija: 20 profesionalno obrađenih
+- Lokacija: studio u Pančevu
+- Uključeno: neograničen broj članova porodice, ručna obrada svake slike, digitalna dostava u HD rezoluciji
+- Rok isporuke: 5-7 dana
+- Napomena: moguća i lokacija po izboru uz dodatne putne troškove
+
+### Proširena sesija (najpopularniji)
+- Cena: 80€
+- Broj fotografija: 30 profesionalno obrađenih
+- Lokacija: studio ili lokacija po izboru
+- Uključeno: više promena outfita, grupne i individualne fotografije, neograničen broj članova porodice, kućni ljubimci dobrodošli, ekspresna obrada
+- Rok isporuke: 5 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
+
+### Premium paket
+- Cena: 120€
+- Broj fotografija: 40 profesionalno obrađenih
+- Lokacija: studio i/ili lokacija po izboru
+- Uključeno: neograničen broj promena outfita, bake, deke i ljubimci uključeni, 5 štampanih fotografija 20x30cm, ekspresna obrada
+- Rok isporuke: 2 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
+
+---
+
+## Fotografisanje venčanja
+
+Svaki momenat vašeg najvažnijeg dana, sačuvan zauvek u prirodnim, emotivnim fotografijama.
+Stranica: https://angelicphoto.rs/fotografisanje-vencanja.html
+
+### Pola dana
+- Cena: 150€
+- Broj fotografija: do 100 obrađenih
+- Pokrivenost: do 5 sati
+- Uključeno: ceremonija + foto sesija mladenaca, ručna obrada svake slike, teaser 10-15 slika za 48h, digitalna dostava u HD rezoluciji
+- Rok isporuke: maksimalno 2 nedelje
+- Napomena: za lokacije van Pančeva postoji doplata za putne troškove
+
+### Ceo dan (najpopularniji)
+- Cena: 250€
+- Broj fotografija: do 200 obrađenih
+- Pokrivenost: do 10 sati
+- Uključeno: pripreme + ceremonija + sesija + slavlje, ručna obrada svake slike, teaser 10-15 slika za 48h
+- Rok isporuke: 2 nedelje
+- Napomena: za lokacije van Pančeva postoji doplata za putne troškove
+
+### Premium
+- Cena: 400€
+- Broj fotografija: do 300 obrađenih
+- Pokrivenost: neograničena (ceo dan i noć)
+- Uključeno: engagement foto sesija pre venčanja, kompletna pokrivenost od priprema do kraja žurke, štampani foto album po želji, ekspresna obrada
+- Rok isporuke: 10 dana
+- Napomena: za lokacije van Pančeva postoji doplata za putne troškove
+
+---
+
+## Fotografisanje krštenja
+
+Svaki blagoslov, svaki osmeh, svaki zagrljaj. Sačuvano u fotografijama za ceo život.
+Stranica: https://angelicphoto.rs/fotografisanje-krstenja.html
+
+### Samo crkva
+- Cena: 70€
+- Broj fotografija: 40 obrađenih
+- Lokacija: crkva
+- Uključeno: fotografisanje obreda u crkvi, grupne fotografije posle obreda, ručna obrada svake slike, digitalna dostava u HD rezoluciji
+- Rok isporuke: 10 radnih dana
+
+### Crkva + slavlje (najpopularniji)
+- Cena: 100€ + putni troškovi
+- Broj fotografija: 80 obrađenih
+- Lokacija: crkva + mesto slavlja
+- Uključeno: sve iz paketa "Samo crkva", fotografisanje slavlja (do 3 sata), dekoracija, torta, spontani trenuci
+- Rok isporuke: 7 radnih dana
+- Napomena: doplata za putne troškove van Pančeva, po dogovoru
+
+### Premium paket
+- Cena: 160€
+- Broj fotografija: do 150 obrađenih
+- Lokacija: kod kuće + crkva + slavlje
+- Uključeno: pripreme kod kuće + oblačenje bebe, crkva + porodične fotografije, kompletno slavlje bez ograničenja, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Rok isporuke: 3 radna dana
+
+---
+
+## Fotografisanje rođendana
+
+Svaki osmeh, svaka svećica, svaki poklon. Sačuvajte magiju proslavlja.
+Stranica: https://angelicphoto.rs/fotografisanje-rodjendana.html
+
+### Studio / Smash the Cake
+- Cena: 70€
+- Broj fotografija: 20 obrađenih
+- Lokacija: studio u Pančevu
+- Uključeno: bez vremenskog ograničenja, rekviziti, baloni i dekoracija uključeni, ručna obrada svake slike, idealno za smash the cake i portrete
+- Rok isporuke: 10 radnih dana
+
+### Proslava na lokaciji (najpopularniji)
+- Cena: 100€ + putni troškovi
+- Broj fotografija: 60 obrađenih
+- Lokacija: igraonica, restoran, dvorište, park (Pančevo, Beograd, Novi Sad i šire)
+- Uključeno: pokrivenost do 3 sata, torta, dekoracija, igra, pokloni
+- Rok isporuke: 7 radnih dana
+- Napomena: doplata za putne troškove van Pančeva, po dogovoru
+
+### Premium paket
+- Cena: 150€
+- Broj fotografija: do 100 obrađenih
+- Lokacija: studio + lokacija proslave
+- Uključeno: neograničena pokrivenost cele proslave, studio sesija + fotografisanje proslave, smash the cake uključen, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Rok isporuke: 3 radna dana
+
+---
+
+## Biznis portreti
+
+Profesionalni portreti za LinkedIn, CV, sajt i lični brend.
+Stranica: https://angelicphoto.rs/biznis-portreti.html
+
+### Individualni portret
+- Cena: 50€
+- Broj fotografija: 5 obrađenih
+- Trajanje: 30-45 minuta
+- Uključeno: 1 garderobna opcija, profesionalna retuš obrada, isporuka u formatu za LinkedIn, CV, sajt
+- Rok isporuke: 3-5 radnih dana
+
+### Poslovni paket (najpopularniji)
+- Cena: 90€
+- Broj fotografija: 10 obrađenih
+- Trajanje: do 90 minuta
+- Uključeno: 2-3 garderobne opcije, fotografije u različitim stilovima i pozama, lični brend fotografije (ne samo headshot), ekspresna isporuka
+- Rok isporuke: 3 radna dana
+- Napomena: doplata za putne troškove van Pančeva, po dogovoru
+
+### Korporativni paket
+- Cena: 25€ po osobi (minimum 5 osoba)
+- Broj fotografija: 3 obrađene po osobi
+- Trajanje: 15-20 minuta po osobi
+- Uključeno: ujednačen stil svih portreta, grupne timske fotografije uključene, dolazak u vašu firmu, putni troškovi uključeni za Pančevo, Beograd, Novi Sad
+
+---
+
+## Fotografisanje proizvoda
+
+Profesionalne fotografije proizvoda za e-commerce, web shop i društvene mreže.
+Stranica: https://angelicphoto.rs/fotografisanje-proizvoda.html
+
+### Bela pozadina (packshot)
+- Cena: 5€ po fotografiji
+- Minimum: 10 fotografija
+- Uključeno: čista bela pozadina, više uglova snimanja, profesionalna obrada i retuš, web + štampa rezolucija, PNG sa transparentnom pozadinom na zahtev
+
+### Lifestyle (najpopularniji)
+- Cena: 8€ po fotografiji
+- Uključeno: kreativni styling i rekviziti, mood board i priprema kompozicija, flat lay + lifestyle varijante, kompletna obrada i kolor korekcija, savršeno za Instagram i Facebook
+- Popusti za veće količine: 50+ fotografija -15%, 100+ fotografija -25%, redovna saradnja posebna cena
+
+### Kompletni paket
+- Cena: 10€ po proizvodu (2+ fotografije po proizvodu)
+- Uključeno: 1 packshot + 1 lifestyle po proizvodu, kompletna vizuelna priča proizvoda, ujednačen stil za ceo katalog, svi formati uključeni (web, štampa, PNG)
+- Rok isporuke: 5 radnih dana (prioritetna isporuka)
+
+---
+
+## Modeling fotografisanje
+
+Portfolio, editorial i lični brend. Kreativne sesije za modele i influensere.
+Stranica: https://angelicphoto.rs/modeling-fotografisanje.html
+
+### Starter
+- Cena: 80€
+- Broj fotografija: 15 obrađenih
+- Trajanje: do 1 sat
+- Lokacija: studio u Pančevu
+- Uključeno: 1 kombinacija garderobe, ručna obrada i osnovni retuš, digitalna dostava u HD rezoluciji
+- Rok isporuke: 10 radnih dana
+
+### Profesionalni (najpopularniji)
+- Cena: 130€ + putni troškovi
+- Broj fotografija: 30 obrađenih
+- Trajanje: do 2 sata
+- Lokacija: studio ili spoljna lokacija po izboru (Pančevo, Beograd, Novi Sad i šire)
+- Uključeno: 2-3 kombinacije garderobe
+- Rok isporuke: 7 radnih dana
+- Napomena: doplata za putne troškove van Pančeva, po dogovoru
+
+### Premium
+- Cena: 200€
+- Broj fotografija: do 50 obrađenih
+- Trajanje: neograničeno
+- Lokacija: studio i/ili lokacija po izboru
+- Uključeno: neograničen broj kombinacija garderobe, profesionalni retuš svake fotografije, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Rok isporuke: 3 radna dana
+
+---
+
+## Kontakt
 
 - Telefon: +381 66 670 2000
 - Instagram: @angelic__photo (https://www.instagram.com/angelic__photo/)
 - Kontakt stranica: https://angelicphoto.rs/kontakt.html
-- Lokacija: Pančevo, Srbija (Vojvodina)
-- Radno vreme: Pon-Pet 09:00–20:00, Sub 10:00–18:00
+- Lokacija studija: Pančevo, Srbija (Vojvodina)
 - Pokrivenost: Pančevo, Beograd, Novi Sad i cela Srbija
+- Prilagođavamo se vašem rasporedu. Radnim danima, vikendom, kad god vama odgovara.
+
+---
+
+## FAQ
+
+**Koliko unapred treba zakazati?**
+Za venčanja 2-3 meseca unapred, za krštenja i rođendane 2-4 nedelje, za studio sesije u roku od nedelju dana.
+
+**Da li dolazite na adresu?**
+Da. Anđela dolazi na bilo koju lokaciju u Pančevu, Beogradu, Novom Sadu i celoj Srbiji. Za lokacije van Pančeva postoji doplata za putne troškove, koja se dogovara individualno.
+
+**Kako izgleda plaćanje?**
+Gotovinom ili prenosom na račun. Za venčanja i veće događaje traži se avans za rezervaciju termina.
+
+**Šta ako moram da otkažem?**
+Promena termina je moguća uz najavu minimum 48 sati unapred.
+
+**Koliko dugo traje obrada fotografija?**
+Zavisi od paketa. Standardna obrada je 7-10 radnih dana, ekspresna obrada 2-5 radnih dana. Za venčanja do 2 nedelje, sa teaser fotografijama za 48 sati.
+
+**Da li su putni troškovi uključeni?**
+Za studio sesije u Pančevu nema putnih troškova. Za lokacije van Pančeva putni troškovi se dogovaraju individualno. Premium paketi kod većine usluga uključuju putne troškove za Pančevo, Beograd i Novi Sad.
+
+---
 
 ## O fotografkinji
 
@@ -74,28 +312,24 @@ Anđela je profesionalna fotografkinja sa 9 vrsta fotografskih usluga. Studio se
 - O meni: https://angelicphoto.rs/o-meni.html
 - Blog: https://angelicphoto.rs/blog.html
 
-## Često postavljana pitanja
-
-- **Koliko unapred treba zakazati?** Za venčanja 2-3 meseca, za krštenja/rođendane 2-4 nedelje, za studio sesije u roku od nedelju dana.
-- **Da li dolazi na adresu?** Da, dolazi na bilo koju lokaciju u Pančevu, Beogradu, Novom Sadu i celoj Srbiji. Za lokacije van Pančeva postoji doplata za putne troškove.
-- **Kako izgleda plaćanje?** Na dan fotografisanja — gotovinom ili prenosom na račun. Za venčanja i veće događaje traži se avans za rezervaciju termina.
-- **Šta ako moram da otkažem?** Promena termina je moguća uz najavu minimum 48 sati unapred.
+---
 
 ## Mapa sajta
 
-- https://angelicphoto.rs/ — Početna stranica
-- https://angelicphoto.rs/fotografisanje-trudnica.html
-- https://angelicphoto.rs/fotografisanje-beba.html
-- https://angelicphoto.rs/porodicno-fotografisanje.html
-- https://angelicphoto.rs/fotografisanje-vencanja.html
-- https://angelicphoto.rs/fotografisanje-krstenja.html
-- https://angelicphoto.rs/fotografisanje-rodjendana.html
-- https://angelicphoto.rs/biznis-portreti.html
-- https://angelicphoto.rs/fotografisanje-proizvoda.html
-- https://angelicphoto.rs/modeling-fotografisanje.html
-- https://angelicphoto.rs/o-meni.html
-- https://angelicphoto.rs/kontakt.html
-- https://angelicphoto.rs/blog.html
+- https://angelicphoto.rs/ (Početna stranica)
+- https://angelicphoto.rs/cenovnik.html (Kompletan cenovnik svih usluga)
+- https://angelicphoto.rs/fotografisanje-trudnica.html (Fotografisanje trudnica)
+- https://angelicphoto.rs/fotografisanje-beba.html (Fotografisanje beba)
+- https://angelicphoto.rs/porodicno-fotografisanje.html (Porodično fotografisanje)
+- https://angelicphoto.rs/fotografisanje-vencanja.html (Fotografisanje venčanja)
+- https://angelicphoto.rs/fotografisanje-krstenja.html (Fotografisanje krštenja)
+- https://angelicphoto.rs/fotografisanje-rodjendana.html (Fotografisanje rođendana)
+- https://angelicphoto.rs/biznis-portreti.html (Biznis portreti)
+- https://angelicphoto.rs/fotografisanje-proizvoda.html (Fotografisanje proizvoda)
+- https://angelicphoto.rs/modeling-fotografisanje.html (Modeling fotografisanje)
+- https://angelicphoto.rs/o-meni.html (O meni)
+- https://angelicphoto.rs/kontakt.html (Kontakt)
+- https://angelicphoto.rs/blog.html (Blog)
 - https://angelicphoto.rs/blog/priprema-bebe-za-fotografisanje.html
 - https://angelicphoto.rs/blog/sta-obuci-za-porodicni-photo-session.html
 - https://angelicphoto.rs/blog/trudnicka-fotografija-idealno-vreme.html
