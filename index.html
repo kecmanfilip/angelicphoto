@@ -31,8 +31,10 @@
     <meta name="twitter:image" content="https://angelicphoto.rs/images/og-image.jpg">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
-    <link rel="apple-touch-icon" href="images/logo.jpg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -109,12 +111,13 @@
     }
     </script>
 
-    <!-- Schema.org JSON-LD - WebSite (AEO) -->
+    <!-- Schema.org JSON-LD - WebSite (AEO + Sitelinks) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Angelic Photo",
+        "alternateName": ["Angelic Photography", "Fotograf Pančevo"],
         "url": "https://angelicphoto.rs",
         "description": "Profesionalni fotograf u Pančevu sa dolaskom na adresu u Beogradu, Novom Sadu i celoj Srbiji.",
         "publisher": {
@@ -122,7 +125,64 @@
             "name": "Angelic Photo",
             "logo": "https://angelicphoto.rs/images/logo.jpg",
             "url": "https://angelicphoto.rs"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://angelicphoto.rs/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
         }
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD - SiteNavigationElement (Google Sitelinks) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "SiteNavigationElement",
+                "position": 1,
+                "name": "Fotografisanje trudnica",
+                "description": "Profesionalno fotografisanje trudnica u studiju u Pančevu ili na lokaciji po izboru. Od 50€.",
+                "url": "https://angelicphoto.rs/fotografisanje-trudnica.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 2,
+                "name": "Fotografisanje beba",
+                "description": "Nežne fotografije vaših najmanjih. Beba diktira tempo. Od 50€.",
+                "url": "https://angelicphoto.rs/fotografisanje-beba.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 3,
+                "name": "Fotografisanje venčanja",
+                "description": "Kompletno fotografisanje venčanja. Od 150€.",
+                "url": "https://angelicphoto.rs/fotografisanje-vencanja.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 4,
+                "name": "Cenovnik",
+                "description": "Kompletan cenovnik svih 9 fotografskih usluga. Transparentne cene.",
+                "url": "https://angelicphoto.rs/cenovnik.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 5,
+                "name": "O meni",
+                "description": "Upoznajte fotografkinju Anđelu - profesionalni fotograf u Pančevu.",
+                "url": "https://angelicphoto.rs/o-meni.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 6,
+                "name": "Kontakt",
+                "description": "Zakažite termin za fotografisanje. Telefon: +381 66 670 2000.",
+                "url": "https://angelicphoto.rs/kontakt.html"
+            }
+        ]
     }
     </script>
 
