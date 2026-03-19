@@ -63,18 +63,6 @@
                         {
                                     "@type": "BlogPosting",
                                     "headline": "Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis",
-                                    "description": "Otkrijte kako izgleda profesionalno fotografisanje proizvoda, zašto loše fotografije koštaju prodaju i kako Anđela iz Pančeva može unaprediti vaš brend. Zakažite!",
-                                    "url": "https://angelicphoto.rs/blog/fotografisanje-proizvoda-kako-izgleda-i-zasto-je-bitno.html",
-                                    "datePublished": "2026-03-19",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/proizvod.jpg"
-                        },
-                        {
-                                    "@type": "BlogPosting",
-                                    "headline": "Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis",
                                     "description": "Otkrijte kako izgleda profesionalno fotografisanje proizvoda korak po korak i zašto kvalitetne fotografije direktno utiču na prodaju. Zakažite termin!",
                                     "url": "https://angelicphoto.rs/blog/fotografisanje-proizvoda-kako-izgleda-i-zasto-je-bitno.html",
                                     "datePublished": "2026-03-19",
@@ -317,23 +305,6 @@
 <div class="container">
 <h2 class="sr-only" id="blog-listing-heading">Svi blog postovi</h2>
 <div class="blog-listing__grid"><article class="blog-card" data-category="proizvodi">
-<a class="blog-card__link" href="/blog/fotografisanje-proizvoda-kako-izgleda-i-zasto-je-bitno.html">
-<div class="blog-card__img-wrap">
-<img alt="Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis" class="blog-card__img" decoding="async" loading="lazy" src="images/proizvod.jpg"/>
-</div>
-<div class="blog-card__body">
-<span class="blog-card__category">Proizvodi</span>
-<h3 class="blog-card__title">Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis</h3>
-<p class="blog-card__excerpt">Zamislite da uđete u prodavnicu u kojoj su svi proizvodi zamotani u neprovidnu foliju. Ne vidite boju, oblik, veličinu. Da li biste nešto kupili?...</p>
-<div class="blog-card__meta">
-<time datetime="2026-03-19">19. mart 2026.</time>
-<span>·</span>
-<span>6 min čitanja</span>
-</div>
-<span class="blog-card__read-more">Pročitaj više →</span>
-</div>
-</a>
-</article><article class="blog-card" data-category="proizvodi">
 <a class="blog-card__link" href="/blog/fotografisanje-proizvoda-kako-izgleda-i-zasto-je-bitno.html">
 <div class="blog-card__img-wrap">
 <img alt="Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis" class="blog-card__img" decoding="async" loading="lazy" src="images/trudnica2.JPG"/>
