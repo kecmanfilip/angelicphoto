@@ -2901,3 +2901,13 @@ em {
 .gallery-grid__img[src="images/modeling4.png"]   { object-position: 50.0% 15.3%; }
 .gallery-grid__img[src="images/modeling3.png"]   { object-position: 48.2% 30.6%; }
 .gallery-grid__img[src="images/modeling5.jpg"]   { object-position: 50.3% 15.3%; }
+
+/* ═══════════════════════════════════════════════════════
+   USKRŠNJE FOTOGRAFISANJE — navbar highlight
+   ═══════════════════════════════════════════════════════ */
+
+.nav__link--uskrs {
+    color: var(--clr-primary) !important;
+    font-weight: 600 !important;
+    position: relative;
+}
