@@ -161,6 +161,7 @@
             display: flex;
             align-items: flex-end;
             padding-bottom: 3.5rem;
+            background: linear-gradient(160deg, #1a1a2e 0%, #2d1f0e 55%, #3d2a10 100%);
         }
         @media (min-width: 900px) {
             .uskrs-hero {
@@ -175,19 +176,15 @@
             position: absolute;
             inset: 0;
             z-index: 0;
-        }
-
-        /* MOBILE: 2 kolone × 3 reda */
-        .uskrs-hero__bg {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: repeat(3, 1fr);
-            gap: 3px;
+            /* MOBILE: tamni brend gradijent umesto foto grida */
+            background: linear-gradient(160deg, #1a1a2e 0%, #2d1f0e 55%, #3d2a10 100%);
+            display: none;
         }
 
         /* DESKTOP: 4 kolone × 1 red */
         @media (min-width: 900px) {
             .uskrs-hero__bg {
+                display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: 1fr;
                 gap: 4px;
@@ -206,12 +203,7 @@
             position: absolute;
             inset: 0;
             z-index: 1;
-            background: linear-gradient(
-                to top,
-                rgba(10, 10, 20, 0.82) 0%,
-                rgba(10, 10, 20, 0.55) 50%,
-                rgba(10, 10, 20, 0.35) 100%
-            );
+            background: transparent;
         }
         @media (min-width: 900px) {
             .uskrs-hero__overlay {
