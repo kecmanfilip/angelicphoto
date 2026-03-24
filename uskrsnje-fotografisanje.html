@@ -130,6 +130,14 @@
             },
             {
                 "@type": "Question",
+                "name": "Da li na sesiji može biti pravi zeka?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Da! Na uskršnjim sesijama u studiju fotografišemo sa pravim patuljastim ovnolikim zekom. Veoma je miran i pitom, bezbedan za bebe i malu decu. Dostupan na svim paketima, bez dodatne naknade."
+                }
+            },
+            {
+                "@type": "Question",
                 "name": "Šta da obučem dete za uskršnje fotografisanje?",
                 "acceptedAnswer": {
                     "@type": "Answer",
@@ -259,6 +267,74 @@
             .uskrs-hero__bg-img--mobile-only { display: none; }
         }
         .uskrs-hero__bg-img--desktop { display: none; }
+        /* ── Zeko callout ── */
+        .uskrs-zeko-section {
+            padding: 3rem 0 4rem;
+        }
+        .uskrs-zeko-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            background: linear-gradient(135deg, #fdf9f2 0%, #fef6e8 100%);
+            border: 2px solid #e8d5a3;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 32px rgba(184,134,11,0.10);
+        }
+        .uskrs-zeko-card__img-wrap {
+            height: 480px;
+            overflow: hidden;
+        }
+        .uskrs-zeko-card__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 60%;
+            display: block;
+        }
+        .uskrs-zeko-card__body {
+            padding: 2.5rem 3rem 2.5rem 0;
+        }
+        .uskrs-zeko-card__title {
+            font-family: var(--ff-heading);
+            font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+            color: var(--clr-dark);
+            margin: 0.5rem 0 1rem;
+        }
+        .uskrs-zeko-card__body p {
+            color: var(--clr-text);
+            line-height: 1.75;
+            margin-bottom: 0.75rem;
+        }
+        .uskrs-zeko-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.25rem 0 1.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+        .uskrs-zeko-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            color: var(--clr-dark);
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .uskrs-zeko-card {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+            .uskrs-zeko-card__img-wrap {
+                height: 300px;
+            }
+            .uskrs-zeko-card__body {
+                padding: 2rem 1.5rem;
+            }
+        }
         /* ── Paketi ── */
         .uskrs-paketi { background: var(--clr-bg-soft); }
         .paketi-grid {
@@ -665,8 +741,8 @@
                 <img src="images/uskrs-studio11.webp" alt="" class="uskrs-hero__bg-img" loading="eager" decoding="async">
                 <img src="images/uskrs-studio4.webp"  alt="" class="uskrs-hero__bg-img" loading="eager" decoding="async">
                 <img src="images/uskrs-studio7.webp"  alt="" class="uskrs-hero__bg-img" loading="eager" decoding="async">
-                <img src="images/uskrs-studio14.webp" alt="" class="uskrs-hero__bg-img" loading="eager" decoding="async">
-                <img src="images/uskrs-studio17.webp" alt="" class="uskrs-hero__bg-img uskrs-hero__bg-img--mobile-only" loading="eager" decoding="async">
+                <img src="images/uskrs-studio21.webp" alt="" class="uskrs-hero__bg-img" loading="eager" decoding="async">
+                <img src="images/uskrs-studio22.webp" alt="" class="uskrs-hero__bg-img uskrs-hero__bg-img--mobile-only" loading="eager" decoding="async">
                 <img src="images/uskrs-studio2.webp"  alt="" class="uskrs-hero__bg-img uskrs-hero__bg-img--mobile-only" loading="eager" decoding="async">
             </div>
 
@@ -726,6 +802,10 @@
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.12"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            Pravi patuljasti ovnoliki zeka za fotografisanje
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.12"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             Termini se popunjavaju brzo. Zakažite na vreme
                         </li>
                     </ul>
@@ -733,6 +813,38 @@
                 </div>
                 <div>
                     <img src="images/uskrs-studio4.webp" alt="Uskršnje fotografisanje dece u studiju - Angelic Photo Pančevo" class="uskrs-intro-img" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- ZEKO CALLOUT -->
+        <section class="uskrs-zeko-section">
+            <div class="container">
+                <div class="uskrs-zeko-card">
+                    <div class="uskrs-zeko-card__img-wrap">
+                        <img src="images/uskrs-studio27.webp" alt="Pravi patuljasti ovnoliki zeko za uskršnje fotografisanje - Angelic Photo Pančevo" class="uskrs-zeko-card__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="uskrs-zeko-card__body">
+                        <span class="uskrs-section-label">🐰 Posebna atrakcija</span>
+                        <h2 class="uskrs-zeko-card__title">Pravi zeka na sesiji!</h2>
+                        <p>Za razliku od dekorativnih figura, na uskršnjim sesijama u studiju možete fotografisati decu sa <strong>pravim patuljastim ovnolikim zekom</strong>. Miran, pitom i neverovatno fotogeničan.</p>
+                        <p>Deca ga obožavaju, a fotografije postaju nešto sasvim posebno i neponovljivo.</p>
+                        <ul class="uskrs-zeko-list">
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Dostupan na svim paketima
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Bezbedno za bebe i malu decu
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Jedinstvene fotografije koje nema svako
+                            </li>
+                        </ul>
+                        <a href="/kontakt.html" class="btn btn--primary">Zakažite termin</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -759,16 +871,13 @@
                         <img src="images/uskrs-studio3.webp" alt="Profesionalno uskršnje fotografisanje u studiju" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio5.webp" alt="Uskršnja foto sesija bebe sa zečićima i jajima" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio4.webp" alt="Dete na uskršnjoj foto sesiji u studiju Angelic Photo" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio6.webp" alt="Dete na uskršnjoj foto sesiji u studiju Angelic Photo" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio6.webp" alt="Uskršnje fotografisanje sa tematskim rekvizitima" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio7.webp" alt="Uskršnje fotografisanje sa tematskim rekvizitima" class="gallery-masonry__img" loading="lazy" decoding="async">
-                    </div>
-                    <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio8.webp" alt="Uskršnje fotografije dece sa pastelnom pozadinom" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio7.webp" alt="Uskršnje fotografije dece sa prolećnom dekoracijom" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
                         <img src="images/uskrs-studio9.webp" alt="Profesionalne uskršnje fotografije za porodicu" class="gallery-masonry__img" loading="lazy" decoding="async">
@@ -786,25 +895,34 @@
                         <img src="images/uskrs-studio13.webp" alt="Uskršnje fotografisanje dece u studiju Pančevo" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio14.webp" alt="Uskršnja foto sesija sa uskršnjim jajima" class="gallery-masonry__img" loading="lazy" decoding="async">
-                    </div>
-                    <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio15.webp" alt="Dete sa uskršnjom korpom - foto sesija u studiju" class="gallery-masonry__img" loading="lazy" decoding="async">
-                    </div>
-                    <div class="gallery-masonry__item">
                         <img src="images/uskrs-studio16.webp" alt="Uskršnje fotografisanje u studiju Angelic Photo" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio17.webp" alt="Uskrsnja foto sesija bebe u pastelnim bojama" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio21.webp" alt="Uskršnja foto sesija dece u studiju Pančevo 2026" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio18.webp" alt="Profesionalne uskršnje fotografije beba Pančevo" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio22.webp" alt="Uskršnje fotografisanje bebe sa tematskom dekoracijom" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio19.webp" alt="Uskršnje fotografisanje beba i novorođenčadi" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio23.webp" alt="Dete na uskršnjoj foto sesiji u studiju" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                     <div class="gallery-masonry__item">
-                        <img src="images/uskrs-studio20.webp" alt="Uskršnja foto sesija u studiju sa tematskom dekoracijom" class="gallery-masonry__img" loading="lazy" decoding="async">
+                        <img src="images/uskrs-studio24.webp" alt="Uskršnja sesija sa jajima i zečićima" class="gallery-masonry__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="gallery-masonry__item">
+                        <img src="images/uskrs-studio25.webp" alt="Profesionalne uskršnje fotografije Pančevo" class="gallery-masonry__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="gallery-masonry__item">
+                        <img src="images/uskrs-studio26.webp" alt="Uskršnje fotografisanje dece sa prolećnim rekvizitima" class="gallery-masonry__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="gallery-masonry__item">
+                        <img src="images/uskrs-studio27.webp" alt="Uskršnja foto sesija u studiju Angelic Photo 2026" class="gallery-masonry__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="gallery-masonry__item">
+                        <img src="images/uskrs-studio28.webp" alt="Uskršnje fotografisanje beba i male dece u studiju" class="gallery-masonry__img" loading="lazy" decoding="async">
+                    </div>
+                    <div class="gallery-masonry__item">
+                        <img src="images/uskrs-studio29.webp" alt="Uskršnja foto sesija sa tematskom uskršnjom dekoracijom" class="gallery-masonry__img" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -971,6 +1089,10 @@
                     <div class="faq-item">
                         <button class="faq-item__question">Koliko fotografija dobijamo i kada?</button>
                         <div class="faq-item__answer">Broj fotografija zavisi od izabranog paketa: 20 fotografija za Mini sesiju (isporuka 8 dana), 30 za Standardnu (5 dana) i 60 za Premium sesiju (2 dana). Sve fotografije su profesionalno obrađene u visokoj rezoluciji, pogodne za štampu i digitalno čuvanje.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-item__question">Da li na sesiji može biti pravi zeka?</button>
+                        <div class="faq-item__answer">Da! Na uskršnjim sesijama u studiju fotografišemo sa pravim patuljastim ovnolikim zekom. Veoma je miran i pitom, bezbedan za bebe i malu decu. Dostupan na svim paketima, bez dodatne naknade.</div>
                     </div>
                     <div class="faq-item">
                         <button class="faq-item__question">Šta da obučem dete za uskršnje fotografisanje?</button>
