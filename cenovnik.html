@@ -263,6 +263,130 @@
             color: var(--clr-white);
             border-color: var(--clr-primary);
         }
+        .cenovnik-nav__link--uskrs {
+            background: linear-gradient(135deg, #b8860b, #d4a820);
+            color: #fff !important;
+            border-color: transparent;
+            font-weight: 600;
+        }
+        .cenovnik-nav__link--uskrs:hover {
+            background: linear-gradient(135deg, #9a7009, #b8860b);
+            border-color: transparent;
+        }
+        /* Uskrs section */
+        .cenovnik-uskrs {
+            background: linear-gradient(160deg, #fdf9f2 0%, #fef6e4 100%);
+            border-bottom: 1px solid #e8d5a3;
+            padding: 4rem 0;
+        }
+        .paketi-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+        }
+        .paket-card {
+            background: #fff;
+            border: 1.5px solid #e8d5a3;
+            border-radius: 16px;
+            padding: 2rem 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+        .paket-card:hover { box-shadow: 0 8px 32px rgba(184,134,11,0.13); }
+        .paket-card--featured {
+            border-color: #b8860b;
+            box-shadow: 0 4px 24px rgba(184,134,11,0.18);
+            background: linear-gradient(160deg, #fff 70%, #fef9ee 100%);
+        }
+        .paket-card--premium {
+            border-color: #c4a882;
+            background: linear-gradient(160deg, #1a1a1a 0%, #2d2310 100%);
+            color: #fff;
+        }
+        .paket-card--premium .paket-card__name { color: #e8c87a; }
+        .paket-card--premium .paket-card__price { color: #fff; }
+        .paket-card--premium .paket-card__list li { color: rgba(255,255,255,0.85); }
+        .paket-card__badge {
+            position: absolute;
+            top: 1rem; right: 1rem;
+            background: #b8860b;
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.25rem 0.7rem;
+            border-radius: 20px;
+        }
+        .paket-card__deco {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            gap: 0.3rem;
+        }
+        .paket-card__header { margin-bottom: 1.25rem; }
+        .paket-card__name {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #b8860b;
+            margin-bottom: 0.4rem;
+        }
+        .paket-card__price {
+            font-family: var(--ff-heading);
+            font-size: 2.6rem;
+            font-weight: 700;
+            color: var(--clr-dark);
+            line-height: 1;
+        }
+        .paket-card__price span { font-size: 1.4rem; font-weight: 400; }
+        .paket-card__list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            flex: 1;
+        }
+        .paket-card__list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--clr-text);
+        }
+        .paket-card__btn {
+            display: inline-block;
+            text-align: center;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+        .paket-card__btn--featured {
+            background: #b8860b;
+            color: #fff;
+            border: none;
+        }
+        .paket-card__btn--featured:hover { background: #9a7009; }
+        .paketi-napomena {
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: var(--clr-text-light, #888);
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .paketi-grid { grid-template-columns: 1fr; max-width: 420px; margin-left: auto; margin-right: auto; }
+        }
         /* Service pricing sections */
         .cenovnik-section {
             padding: var(--space-3xl) 0;
@@ -461,6 +585,7 @@
         <nav class="cenovnik-nav" aria-label="Navigacija po uslugama">
             <div class="container">
                 <ul class="cenovnik-nav__list">
+                    <li><a href="#uskrs" class="cenovnik-nav__link cenovnik-nav__link--uskrs">🐣 Uskršnje</a></li>
                     <li><a href="#trudnice" class="cenovnik-nav__link">Trudnice</a></li>
                     <li><a href="#bebe" class="cenovnik-nav__link">Bebe</a></li>
                     <li><a href="#porodica" class="cenovnik-nav__link">Porodica</a></li>
@@ -474,6 +599,114 @@
             </div>
         </nav>
 
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- 0. USKRŠNJI PAKETI                          -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section class="cenovnik-uskrs" id="uskrs">
+            <div class="container">
+                <div class="cenovnik-section__header">
+                    <span class="cenovnik-section__label" style="color:#b8860b;">🐣 Sezonska ponuda · Uskrs 2026</span>
+                    <h2 class="cenovnik-section__title">Uskršnji paketi fotografisanja</h2>
+                    <p class="cenovnik-section__desc">Studio u Pančevu ili Narodna bašta. Pravi patuljasti ovnoliki zeko dostupan na svim paketima, bez doplate.</p>
+                </div>
+
+                <div class="paketi-grid">
+
+                    <div class="paket-card">
+                        <div class="paket-card__header">
+                            <span class="paket-card__name">Mini sesija</span>
+                            <div class="paket-card__price">40 <span>€</span></div>
+                        </div>
+                        <ul class="paket-card__list">
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.12"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                45 minuta fotografisanja
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.12"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                20 obrađenih fotografija
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.12"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Uskršnja dekoracija i rekviziti
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.12"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Isporuka u roku od 8 dana
+                            </li>
+                        </ul>
+                        <a href="/kontakt.html" class="btn btn--outline paket-card__btn">Zakaži</a>
+                    </div>
+
+                    <div class="paket-card paket-card--featured">
+                        <div class="paket-card__badge">Najpopularniji</div>
+                        <div class="paket-card__deco" aria-hidden="true">
+                            <span>🐰</span><span>🌸</span><span>🐰</span>
+                        </div>
+                        <div class="paket-card__header">
+                            <span class="paket-card__name">Standardna sesija</span>
+                            <div class="paket-card__price">60 <span>€</span></div>
+                        </div>
+                        <ul class="paket-card__list">
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                90 minuta fotografisanja
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                30 obrađenih fotografija
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Uskršnja dekoracija i rekviziti
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.15"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Isporuka u roku od 5 dana
+                            </li>
+                        </ul>
+                        <a href="/kontakt.html" class="btn paket-card__btn paket-card__btn--featured">Zakaži</a>
+                    </div>
+
+                    <div class="paket-card paket-card--premium">
+                        <div class="paket-card__deco paket-card__deco--premium" aria-hidden="true">
+                            <span>🥚</span><span>🐰</span><span>🌸</span><span>🐣</span>
+                        </div>
+                        <div class="paket-card__header">
+                            <span class="paket-card__name">Premium sesija</span>
+                            <div class="paket-card__price">100 <span>€</span></div>
+                        </div>
+                        <ul class="paket-card__list">
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.18"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Neograničeno vreme
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.18"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                60 obrađenih fotografija
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.18"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Kompletan uskršnji dekor i rekviziti
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#b8860b" opacity="0.18"/><path d="M6 10l3 3 5-5" stroke="#b8860b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Isporuka u roku od 2 dana
+                            </li>
+                        </ul>
+                        <a href="/kontakt.html" class="btn btn--primary paket-card__btn">Zakaži</a>
+                    </div>
+
+                </div>
+
+                <p class="paketi-napomena">* Fotografisanje u prirodi u Pančevu: Narodna bašta. Za ostale lokacije po vašem izboru važi doplata za putne troškove. Pravi patuljasti ovnoliki zeko dostupan bez doplate.</p>
+
+                <div class="cenovnik-section__more">
+                    <a href="/uskrsnje-fotografisanje.html">Pogledajte galeriju uskršnjih fotografija →</a>
+                </div>
+            </div>
+        </section>
 
         <!-- ═══════════════════════════════════════════ -->
         <!-- 1. FOTOGRAFISANJE TRUDNICA                  -->
