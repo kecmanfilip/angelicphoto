@@ -62,42 +62,6 @@
             "blogPost": [
                         {
                                     "@type": "BlogPosting",
-                                    "headline": "Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis",
-                                    "description": "Otkrijte kako izgleda profesionalno fotografisanje proizvoda korak po korak i zašto kvalitetne fotografije direktno utiču na prodaju. Zakažite termin!",
-                                    "url": "https://angelicphoto.rs/blog/fotografisanje-proizvoda-kako-izgleda-i-zasto-je-bitno.html",
-                                    "datePublished": "2026-03-19",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/trudnica2.JPG"
-                        },
-                        {
-                                    "@type": "BlogPosting",
-                                    "headline": "Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis",
-                                    "description": "Otkrijte kako izgleda profesionalno fotografisanje proizvoda, korak po korak. Saznajte zašto kvalitetne fotografije direktno utiču na prodaju. Zakažite termin!",
-                                    "url": "https://angelicphoto.rs/blog/kako-izgleda-fotografisanje-proizvoda-i-zasto-je-bitno.html",
-                                    "datePublished": "2026-03-19",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/vencanje4.jpg"
-                        },
-                        {
-                                    "@type": "BlogPosting",
-                                    "headline": "Fotografisanje proizvoda: kako izgleda ceo proces i zašto je ključno za vaš biznis",
-                                    "description": "Otkrijte kako izgleda profesionalno fotografisanje proizvoda, korak po korak. Saznajte zašto kvalitetne fotografije povećavaju prodaju. Zakažite termin!",
-                                    "url": "https://angelicphoto.rs/blog/kako-izgleda-fotografisanje-proizvoda-i-zasto-je-bitno.html",
-                                    "datePublished": "2026-03-19",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/vencanje18.JPG"
-                        },
-                        {
-                                    "@type": "BlogPosting",
                                     "headline": "5 grešaka koje ubijaju vaš LinkedIn profil i kako profesionalna fotografija menja sve",
                                     "description": "Profesionalna LinkedIn fotografija menja utisak koji ostavljate. Otkrijte 5 grešaka koje vas koštaju prilika i zakažite biznis portret u Pančevu ili Beogradu.",
                                     "url": "https://angelicphoto.rs/blog/5-gresaka-linkedin-profil-profesionalna-fotografija.html",
@@ -142,44 +106,8 @@
                                                 "@type": "Person",
                                                 "name": "Anđela"
                                     },
-                                    "image": "https://angelicphoto.rs/images/trudnica10.png"
+                                    "image": "https://angelicphoto.rs/images/trudnica12.webp"
                         },
-                        {
-                                    "@type": "BlogPosting",
-                                    "headline": "5 poza za parove koji ne znaju da poziraju",
-                                    "description": "Jednostavne i prirodne poze za parove - bez ukočenosti i nelagodnosti.",
-                                    "url": "https://angelicphoto.rs/blog/5-poza-za-parove.html",
-                                    "datePublished": "2025-12-15",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/vencanje.jpg"
-                        },
-                        {
-                                    "@type": "BlogPosting",
-                                    "headline": "Golden hour fotografisanje - zašto je zlatni sat magičan?",
-                                    "description": "Sve što treba da znate o fotografisanju tokom zlatnog sata.",
-                                    "url": "https://angelicphoto.rs/blog/golden-hour-fotografisanje.html",
-                                    "datePublished": "2025-12-01",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/trudnica3.JPG"
-                        },
-                        {
-                                    "@type": "BlogPosting",
-                                    "headline": "Kako odabrati pravog fotografa za venčanje?",
-                                    "description": "Vodič za izbor idealnog fotografa za vaš najvažniji dan.",
-                                    "url": "https://angelicphoto.rs/blog/kako-odabrati-fotografa-za-vencanje.html",
-                                    "datePublished": "2025-11-15",
-                                    "author": {
-                                                "@type": "Person",
-                                                "name": "Anđela"
-                                    },
-                                    "image": "https://angelicphoto.rs/images/vencanje1.jpg"
-                        }
             ]
 }</script>
 <!-- BreadcrumbList -->
@@ -216,6 +144,7 @@
 </svg>
 </button>
 <ul class="nav__dropdown" role="menu">
+<li role="menuitem"><a class="nav__dropdown-link nav__dropdown-link--uskrs" href="/uskrsnje-fotografisanje.html">🐣 Uskršnje fotografisanje</a></li>
 <li role="menuitem"><a class="nav__dropdown-link" href="/fotografisanje-trudnica.html">Fotografisanje trudnica</a></li>
 <li role="menuitem"><a class="nav__dropdown-link" href="/fotografisanje-beba.html">Fotografisanje beba</a></li>
 <li role="menuitem"><a class="nav__dropdown-link" href="/porodicno-fotografisanje.html">Porodično fotografisanje</a></li>
@@ -229,6 +158,9 @@
 </li>
 <li class="nav__item">
 <a class="nav__link" href="/o-meni.html">O meni</a>
+</li>
+<li class="nav__item">
+<a class="nav__link nav__link--uskrs" href="/uskrsnje-fotografisanje.html">🐣 Uskršnje</a>
 </li>
 <li class="nav__item">
 <a aria-current="page" class="nav__link nav__link--active" href="/blog.html">Blog</a>
@@ -270,6 +202,7 @@
 <button class="blog-categories__btn" data-category="bebe">Bebe</button>
 <button class="blog-categories__btn" data-category="porodica">Porodica</button>
 <button class="blog-categories__btn" data-category="trudnice">Trudnice</button>
+<button class="blog-categories__btn" data-category="biznis">Biznis</button>
 </div>
 </div>
 </section>
@@ -278,17 +211,17 @@
 <!-- ═══════════════════════════════════════════ -->
 <section aria-label="Istaknuti blog post" class="blog-featured">
 <div class="container">
-<article class="blog-featured-card" data-category="proizvodi">
-<a class="blog-featured-card__link" href="/blog/kako-izgleda-fotografisanje-proizvoda-i-zasto-je-bitno.html">
+<article class="blog-featured-card" data-category="saveti">
+<a class="blog-featured-card__link" href="/blog/uskrsnje-fotografisanje-studio-priroda.html">
 <div class="blog-featured-card__img-wrap">
-<img alt="Fotografisanje proizvoda: kako izgleda ceo proces i zašto je ključno za vaš biznis" class="blog-featured-card__img" decoding="async" loading="eager" src="images/vencanje18.JPG"/>
+<img alt="Kako izgleda uskršnje fotografisanje u studiju i prirodi" class="blog-featured-card__img" decoding="async" loading="eager" src="images/uskrs-studio1.webp"/>
 </div>
 <div class="blog-featured-card__body">
-<span class="blog-card__category">Proizvodi</span>
-<h2 class="blog-featured-card__title">Fotografisanje proizvoda: kako izgleda ceo proces i zašto je ključno za vaš biznis</h2>
-<p class="blog-featured-card__excerpt">Zamislite ovaj prizor: uđete na sajt ili otvorite Instagram profil nekog brenda, vidite zamućene, loše osvetljene fotografije proizvoda, i odmah zatvorite...</p>
+<span class="blog-card__category">Saveti</span>
+<h2 class="blog-featured-card__title">Kako izgleda uskršnje fotografisanje u studiju i prirodi</h2>
+<p class="blog-featured-card__excerpt">Uskrs je jedno od mojih omiljenih godišnjih doba za fotografisanje. Priroda se upravo probudila, svetlost je mekana i topla, a deca u pastelnim outfitima...</p>
 <div class="blog-featured-card__meta">
-<time datetime="2026-03-19">19. mart 2026.</time>
+<time datetime="2026-03-26">26. mart 2026.</time>
 <span>·</span>
 <span>6 min čitanja</span>
 </div>
@@ -304,41 +237,7 @@
 <section aria-labelledby="blog-listing-heading" class="blog-listing">
 <div class="container">
 <h2 class="sr-only" id="blog-listing-heading">Svi blog postovi</h2>
-<div class="blog-listing__grid"><article class="blog-card" data-category="proizvodi">
-<a class="blog-card__link" href="/blog/fotografisanje-proizvoda-kako-izgleda-i-zasto-je-bitno.html">
-<div class="blog-card__img-wrap">
-<img alt="Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis" class="blog-card__img" decoding="async" loading="lazy" src="images/trudnica2.JPG"/>
-</div>
-<div class="blog-card__body">
-<span class="blog-card__category">Proizvodi</span>
-<h3 class="blog-card__title">Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis</h3>
-<p class="blog-card__excerpt">Kada sam pre nekoliko godina fotografisala prvi put proizvode za jednu malu porodičnu firmu iz Pančeva, vlasnica mi je rekla nešto što mi je ostalo u sećanju:...</p>
-<div class="blog-card__meta">
-<time datetime="2026-03-19">19. mart 2026.</time>
-<span>·</span>
-<span>6 min čitanja</span>
-</div>
-<span class="blog-card__read-more">Pročitaj više →</span>
-</div>
-</a>
-</article><article class="blog-card" data-category="proizvodi">
-<a class="blog-card__link" href="/blog/kako-izgleda-fotografisanje-proizvoda-i-zasto-je-bitno.html">
-<div class="blog-card__img-wrap">
-<img alt="Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis" class="blog-card__img" decoding="async" loading="lazy" src="images/vencanje4.jpg"/>
-</div>
-<div class="blog-card__body">
-<span class="blog-card__category">Proizvodi</span>
-<h3 class="blog-card__title">Fotografisanje proizvoda: kako izgleda ceo proces i zašto je bitno za vaš biznis</h3>
-<p class="blog-card__excerpt">Kada sam pre nekoliko godina fotografisala prvi put proizvode za jednu malu kozmetičku radnju iz Pančeva, vlasnica mi je rekla nešto što mi je ostalo u...</p>
-<div class="blog-card__meta">
-<time datetime="2026-03-19">19. mart 2026.</time>
-<span>·</span>
-<span>6 min čitanja</span>
-</div>
-<span class="blog-card__read-more">Pročitaj više →</span>
-</div>
-</a>
-</article><article class="blog-card" data-category="biznis">
+<div class="blog-listing__grid"><article class="blog-card" data-category="biznis">
 <a class="blog-card__link" href="/blog/5-gresaka-linkedin-profil-profesionalna-fotografija.html">
 <div class="blog-card__img-wrap">
 <img alt="5 grešaka koje ubijaju vaš LinkedIn profil i kako profesionalna fotografija menja sve" class="blog-card__img" decoding="async" loading="lazy" src="images/biznis1.png"/>
@@ -358,7 +257,7 @@
 </article><article class="blog-card" data-category="trudnice">
 <a class="blog-card__link" href="/blog/trudnicka-fotografija-idealno-vreme.html">
 <div class="blog-card__img-wrap">
-<img alt="Trudnička fotografija - kada je idealno vreme?" class="blog-card__img" decoding="async" loading="lazy" src="images/trudnica10.png"/>
+<img alt="Trudnička fotografija - kada je idealno vreme?" class="blog-card__img" decoding="async" loading="lazy" src="images/trudnica12.webp"/>
 </div>
 <div class="blog-card__body">
 <span class="blog-card__category">Trudnice</span>
@@ -376,7 +275,7 @@
 <article class="blog-card" data-category="bebe">
 <a class="blog-card__link" href="/blog/priprema-bebe-za-fotografisanje.html">
 <div class="blog-card__img-wrap">
-<img alt="Fotografisanje beba - kako pripremiti bebu za foto session" class="blog-card__img" decoding="async" loading="lazy" src="images/beba4.jpg"/>
+<img alt="Fotografisanje beba - kako pripremiti bebu za foto session" class="blog-card__img" decoding="async" loading="lazy" src="images/beba4.jpg" style="object-position: center 30%;"/>
 </div>
 <div class="blog-card__body">
 <span class="blog-card__category">Fotografisanje beba</span>
@@ -394,7 +293,7 @@
 <article class="blog-card" data-category="porodica">
 <a class="blog-card__link" href="/blog/sta-obuci-za-porodicni-photo-session.html">
 <div class="blog-card__img-wrap">
-<img alt="Porodično fotografisanje - saveti za odabir odeće" class="blog-card__img" decoding="async" loading="lazy" src="images/porodicno3.png"/>
+<img alt="Porodično fotografisanje - saveti za odabir odeće" class="blog-card__img" decoding="async" loading="lazy" src="images/porodicno3.png" style="object-position: center 70%;"/>
 </div>
 <div class="blog-card__body">
 <span class="blog-card__category">Porodično fotografisanje</span>
@@ -441,6 +340,9 @@
 <ul>
 <li><a href="/">Početna</a></li>
 <li><a href="/o-meni.html">O meni</a></li>
+<li class="nav__item">
+<a class="nav__link nav__link--uskrs" href="/uskrsnje-fotografisanje.html">🐣 Uskršnje</a>
+</li>
 <li><a href="/blog.html">Blog</a></li>
 <li><a href="/cenovnik.html">Cenovnik</a></li>
 <li><a href="/kontakt.html">Kontakt</a></li>
@@ -472,7 +374,7 @@
 </div>
 <div class="footer__bottom">
 <div class="container">
-<p>© 2026 Angelic Photo. Sva prava zadržana.</p>
+<p>© 2026 Angelic Photo. Sva prava zadržana.  |  <a href="/privacy-policy.html" style="color:inherit;text-decoration:underline;">Politika privatnosti</a>  |  Dizajn, razvoj i SEO: <a href="https://quantex.rs" rel="noopener" style="color:inherit;text-decoration:underline;" target="_blank">Quantex.rs</a></p>
 </div>
 </div>
 </footer>
@@ -490,5 +392,13 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+<script>
+var Tawk_API = Tawk_API || {};
+Tawk_API.onChatStarted = function() {
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18001917494/lpjaCJz_9I8cELbs_YdD'
+  });
+};
+</script>
 </body>
 </html>
