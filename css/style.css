@@ -2086,6 +2086,14 @@ em {
     margin-top: 2px;
 }
 
+.pricing-card__travel-note {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    color: var(--clr-text);
+    opacity: 0.6;
+    text-align: center;
+}
+
 .pricing-card__travel {
     margin-top: var(--space-xl);
     padding-top: var(--space-lg);
