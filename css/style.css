@@ -3126,3 +3126,168 @@ em {
     box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
     z-index: 2;
 }
+
+/* ─── Google Recenzije ─── */
+.google-reviews {
+    padding: var(--space-4xl) 0;
+    background: var(--clr-bg-warm);
+}
+
+.gr-header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+}
+
+.gr-header__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-semibold);
+    color: var(--clr-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-md);
+}
+
+.gr-header__rating {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+}
+
+.gr-header__score {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    color: var(--clr-dark);
+}
+
+.gr-header__stars {
+    display: flex;
+    gap: 2px;
+}
+
+.gr-header__count {
+    font-size: var(--fs-sm);
+    color: var(--clr-text-light);
+}
+
+/* Citat grid */
+.gr-quotes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-2xl);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gr-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-md);
+    padding: var(--space-xl) var(--space-lg);
+    position: relative;
+}
+
+.gr-quote + .gr-quote::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 70%;
+    width: 1px;
+    background: var(--clr-border);
+}
+
+.gr-quote__icon {
+    flex-shrink: 0;
+}
+
+.gr-quote__text {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-md);
+    font-style: italic;
+    color: var(--clr-dark);
+    line-height: 1.8;
+    flex: 1;
+}
+
+.gr-quote__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+}
+
+.gr-quote__avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius-full);
+    background: var(--clr-primary);
+    color: var(--clr-white);
+    font-family: var(--ff-heading);
+    font-size: 1.1rem;
+    font-weight: var(--fw-bold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gr-quote__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.gr-quote__name {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    color: var(--clr-text);
+    font-style: normal;
+}
+
+.gr-quote__date {
+    font-size: var(--fs-xs);
+    color: var(--clr-text-light);
+}
+
+.gr-quote__stars {
+    display: flex;
+    gap: 2px;
+}
+
+/* Link na dnu */
+.gr-all-link {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-3xl);
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .gr-quotes {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .gr-quote + .gr-quote::before {
+        left: 15%;
+        top: 0;
+        height: 1px;
+        width: 70%;
+    }
+
+    .gr-quote {
+        padding: var(--space-xl) var(--space-md);
+    }
+
+    .gr-quote__text {
+        font-size: var(--fs-base);
+    }
+}
+}
