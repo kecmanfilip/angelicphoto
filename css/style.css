@@ -3029,6 +3029,14 @@ em {
     align-self: flex-start;
     transition: background 0.2s;
 }
+@media (min-width: 768px) {
+    .service-card--uskrs .uskrs-card-cta {
+        align-self: center;
+        margin-top: 1.25rem;
+        padding: 0.75rem 2rem;
+        font-size: 0.95rem;
+    }
+}
 .service-card--uskrs:hover .uskrs-card-cta {
     background: var(--clr-primary-dark);
 }

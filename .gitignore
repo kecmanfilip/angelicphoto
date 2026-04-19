@@ -1,3 +1,5 @@
-/.vscode
+.DS_Store
+.vscode/
 Claude.md
 /tools/
+.git 2/
