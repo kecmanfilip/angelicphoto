@@ -2829,14 +2829,14 @@ em {
    ═══════════════════════════════════════════════════════ */
 
 /* Service cards */
-.service-card__img[src="images/trudnica7.JPG"]   { object-position: 50% 20%; }
-.service-card__img[src="images/porodicno.JPG"]   { object-position: 50% 15%; }
-.service-card__img[src="images/vencanje.jpg"]    { object-position: 50.0% 62.1%; }
-.service-card__img[src="images/krstenje.jpg"]    { object-position: 50.0% 9.8%; }
-.service-card__img[src="images/rodjendan.jpg"]   { object-position: 46.4% 14.6%; }
-.service-card__img[src="images/biznis.jpg"]       { object-position: 50.7% 26.7%; }
-.service-card__img[src="images/proizvod1.webp"]    { object-position: 48.2% 15.6%; }
-.service-card__img[src="images/modeling.png"]     { object-position: 50.0% 30.1%; }
+.service-card__img[src="images/trudnica7.webp"]   { object-position: 50% 15%; }
+.service-card__img[src="images/porodicno7.webp"]  { object-position: 50% 15%; }
+.service-card__img[src="images/vencanje.webp"]    { object-position: 50% 65%; }
+.service-card__img[src="images/krstenje.webp"]    { object-position: 50% 10%; }
+.service-card__img[src="images/rodjendan4.webp"]  { object-position: 50% 30%; }
+.service-card__img[src="images/biznis.webp"]      { object-position: 50% 20%; }
+.service-card__img[src="images/proizvod1.webp"]   { object-position: 48% 15%; }
+.service-card__img[src="images/modeling-v2.webp"] { object-position: 50% 15%; }
 
 /* Blog cards */
 .blog-card__img[src="images/trudnica10.png"]     { object-position: 48.4% 17.5%; }
