@@ -2834,7 +2834,8 @@ em {
 .service-card__img[src="images/krstenje.webp"]    { object-position: 50% 10%; }
 .service-card__img[src="images/rodjendan4.webp"]  { object-position: 50% 30%; }
 .service-card__img[src="images/biznis.webp"]      { object-position: 50% 20%; }
-.service-card__img[src="images/proizvod1.webp"]   { object-position: 48% 15%; }
+.service-card__img-wrap:has([src="images/proizvod1.webp"]) { aspect-ratio: 3/4; }
+.service-card__img[src="images/proizvod1.webp"]   { height: 100%; object-fit: cover; object-position: 48% 15%; }
 .service-card__img[src="images/modeling-v2.webp"] { object-position: 50% 15%; }
 
 /* Blog cards */
