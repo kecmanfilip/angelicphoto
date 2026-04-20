@@ -1633,6 +1633,7 @@ em {
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-xl);
+    aspect-ratio: 3 / 4;
 }
 
 .service-intro__img-wrap::after {
@@ -1648,7 +1649,6 @@ em {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    aspect-ratio: 3 / 4;
 }
 
 
