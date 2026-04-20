@@ -13,7 +13,7 @@
 Nežne i emotivne fotografije trudničkog perioda. U studiju u Pančevu ili na lokaciji po izboru.
 Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
 
-### Studio sesija
+### Osnovni paket
 - Cena: 50€
 - Broj fotografija: 20 profesionalno obrađenih
 - Lokacija: studio u Pančevu
@@ -21,7 +21,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
 - Rok isporuke: 5-7 dana
 - Napomena: moguća i lokacija po izboru uz dodatne putne troškove
 
-### Proširena sesija (najpopularniji)
+### Standard paket (najpopularniji)
 - Cena: 70€
 - Broj fotografija: 30 profesionalno obrađenih
 - Lokacija: studio ili lokacija po izboru
@@ -44,7 +44,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
 Nežne fotografije vaših najmanjih. Bez žurbe, beba diktira tempo.
 Stranica: https://angelicphoto.rs/fotografisanje-beba.html
 
-### Studio sesija
+### Osnovni paket
 - Cena: 50€
 - Broj fotografija: 20 profesionalno obrađenih
 - Lokacija: studio u Pančevu
@@ -52,7 +52,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-beba.html
 - Rok isporuke: 7 dana
 - Napomena: moguća i lokacija po izboru uz doplatu za putne troškove
 
-### Proširena sesija (najpopularniji)
+### Standard paket (najpopularniji)
 - Cena: 70€
 - Broj fotografija: 30 profesionalno obrađenih
 - Lokacija: studio ili lokacija po izboru
@@ -75,7 +75,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-beba.html
 Prirodne i tople porodične fotografije. Od beba do baka i deka, uključujući kućne ljubimce.
 Stranica: https://angelicphoto.rs/porodicno-fotografisanje.html
 
-### Studio sesija
+### Osnovni paket
 - Cena: 50€
 - Broj fotografija: 20 profesionalno obrađenih
 - Lokacija: studio u Pančevu
@@ -83,7 +83,7 @@ Stranica: https://angelicphoto.rs/porodicno-fotografisanje.html
 - Rok isporuke: 5-7 dana
 - Napomena: moguća i lokacija po izboru uz dodatne putne troškove
 
-### Proširena sesija (najpopularniji)
+### Standard paket (najpopularniji)
 - Cena: 80€
 - Broj fotografija: 30 profesionalno obrađenih
 - Lokacija: studio ili lokacija po izboru
@@ -185,7 +185,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-rodjendana.html
 - Cena: 150€
 - Broj fotografija: do 100 obrađenih
 - Lokacija: studio + lokacija proslave
-- Uključeno: neograničena pokrivenost cele proslave, studio sesija + fotografisanje proslave, smash the cake uključen, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Uključeno: neograničena pokrivenost cele proslave, foto sesija u studiju + fotografisanje proslave, smash the cake uključen, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
 - Rok isporuke: 3 radna dana
 
 ---
