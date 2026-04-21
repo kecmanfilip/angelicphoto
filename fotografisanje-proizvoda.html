@@ -231,28 +231,31 @@
         <!-- ═══════════════════════════════════════════ -->
         <!-- HERO - FOTOGRAFISANJE PROIZVODA             -->
         <!-- ═══════════════════════════════════════════ -->
-        <section class="service-hero" aria-labelledby="service-hero-heading">
-            <div class="service-hero__bg">
-                <div class="service-hero__overlay"></div>
-            </div>
-            <div class="container service-hero__content">
-                <nav class="breadcrumb" aria-label="Breadcrumb navigacija">
-                    <ol class="breadcrumb__list">
-                        <li class="breadcrumb__item"><a href="/">Početna</a></li>
-                        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">Fotografisanje proizvoda</li>
-                    </ol>
-                </nav>
-                <h1 class="service-hero__heading" id="service-hero-heading">
-                    Fotografisanje proizvoda
-                </h1>
-                <p class="service-hero__desc">
-                    Fotografije koje prodaju - čiste, profesionalne i neodoljive.<br>
-                    E-commerce, web shopovi, katalozi - Pančevo, Beograd, Novi Sad.
-                </p>
-                <div class="service-hero__actions">
-                    <a href="/kontakt.html" class="btn btn--primary btn--lg">Zatražite ponudu</a>
-                    <a href="#galerija" class="btn btn--outline btn--lg">Pogledajte portfolio</a>
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- HERO                                         -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section class="svc-hero svc-hero--product" aria-labelledby="svc-hero-heading">
+            <div class="svc-hero__grid">
+                <div class="svc-hero__text">
+                    <nav class="svc-hero__breadcrumb" aria-label="Breadcrumb">
+                        <a href="/">Početna</a><span class="sep">/</span><span class="current">Fotografisanje proizvoda</span>
+                    </nav>
+                    <h1 class="svc-hero__title" id="svc-hero-heading">Proizvod koji se <span class="accent">prodaje</span> već na slici.</h1>
+                    <p class="svc-hero__lede">E-commerce katalog, Instagram feed, web shop. <b>Čista bela ili siva pozadina</b> ili lifestyle setup sa teksturama. Isporučujem u svim formatima za Shopify, WooCommerce, Instagram i print.</p>
+                    <div class="svc-hero__actions">
+                        <a href="/kontakt.html" class="svc-hero__btn svc-hero__btn--primary">Pošaljite upit <span class="arrow">→</span></a>
+                        <a href="#galerija" class="svc-hero__btn svc-hero__btn--ghost">Pogledajte galeriju</a>
+                    </div>
+                    <ul class="svc-hero__meta">
+                        <li class="svc-hero__chip"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 5l6-3 6 3v6l-6 3-6-3V5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M2 5l6 3 6-3M8 8v6" stroke="currentColor" stroke-width="1.5"/></svg><span class="label">Min. set:</span> <b>10 kadrova</b></li>
+                        <li class="svc-hero__chip"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 4h10v8H3z" stroke="currentColor" stroke-width="1.5"/><path d="M3 7h10" stroke="currentColor" stroke-width="1.5"/></svg><span class="label">Od:</span> <b>5 €/kom</b></li>
+                        <li class="svc-hero__chip"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 13V6l6-3 6 3v7M6 13V9h4v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Web + print ready</b></li>
+                    </ul>
                 </div>
+                <figure class="svc-hero__cover">
+                    <img src="images/proizvod1.webp" alt="Fotografisanje proizvoda – čista kompozicija na beloj pozadini" class="svc-hero__cover-img" loading="eager" fetchpriority="high" decoding="async">
+                    <div class="svc-hero__cover-accent" aria-hidden="true"></div>
+                </figure>
             </div>
         </section>
 

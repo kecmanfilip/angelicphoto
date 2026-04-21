@@ -231,28 +231,31 @@
         <!-- ═══════════════════════════════════════════ -->
         <!-- HERO - VENČANJA                             -->
         <!-- ═══════════════════════════════════════════ -->
-        <section class="service-hero" aria-labelledby="service-hero-heading">
-            <div class="service-hero__bg">
-                <div class="service-hero__overlay"></div>
-            </div>
-            <div class="container service-hero__content">
-                <nav class="breadcrumb" aria-label="Breadcrumb navigacija">
-                    <ol class="breadcrumb__list">
-                        <li class="breadcrumb__item"><a href="/">Početna</a></li>
-                        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">Fotografisanje venčanja</li>
-                    </ol>
-                </nav>
-                <h1 class="service-hero__heading" id="service-hero-heading">
-                    Fotografisanje venčanja
-                </h1>
-                <p class="service-hero__desc">
-                    Vaš najlepši dan zaslužuje fotografije koje ćete čuvati zauvek.<br>
-                    Pančevo, Beograd, Novi Sad i cela Srbija.
-                </p>
-                <div class="service-hero__actions">
-                    <a href="/kontakt.html" class="btn btn--primary btn--lg">Zakažite termin</a>
-                    <a href="#galerija" class="btn btn--outline btn--lg">Pogledajte galeriju</a>
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- HERO                                         -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section class="svc-hero svc-hero--wedding" aria-labelledby="svc-hero-heading">
+            <div class="svc-hero__grid">
+                <div class="svc-hero__text">
+                    <nav class="svc-hero__breadcrumb" aria-label="Breadcrumb">
+                        <a href="/">Početna</a><span class="sep">/</span><span class="current">Fotografisanje venčanja</span>
+                    </nav>
+                    <h1 class="svc-hero__title" id="svc-hero-heading">Jedan dan. <span class="accent">Hiljadu trenutaka</span> koje ne želite da propustite.</h1>
+                    <p class="svc-hero__lede">Celodnevno praćenje venčanja: od priprema, preko obreda, do poslednjeg plesa. <b>Dokumentarni pristup</b> uz elegantno režirane portrete para. Pokrivam Pančevo, Beograd, Novi Sad i celu Srbiju.</p>
+                    <div class="svc-hero__actions">
+                        <a href="/kontakt.html" class="svc-hero__btn svc-hero__btn--primary">Zakažite termin <span class="arrow">→</span></a>
+                        <a href="#galerija" class="svc-hero__btn svc-hero__btn--ghost">Pogledajte galeriju</a>
+                    </div>
+                    <ul class="svc-hero__meta">
+                        <li class="svc-hero__chip"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.5"/><path d="M8 4v4l2.5 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="label">Pokrivenost:</span> <b>Do 10h</b></li>
+                        <li class="svc-hero__chip"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 4h10v8H3z" stroke="currentColor" stroke-width="1.5"/><path d="M3 7h10" stroke="currentColor" stroke-width="1.5"/></svg><span class="label">Od:</span> <b>150 €</b></li>
+                        <li class="svc-hero__chip"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 14s5-4.5 5-8a5 5 0 1 0-10 0c0 3.5 5 8 5 8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="8" cy="6" r="1.75" stroke="currentColor" stroke-width="1.5"/></svg><b>Cela Srbija</b></li>
+                    </ul>
                 </div>
+                <figure class="svc-hero__cover">
+                    <img src="images/vencanje.webp" alt="Fotografisanje venčanja – mladenci" class="svc-hero__cover-img" loading="eager" fetchpriority="high" decoding="async">
+                    <div class="svc-hero__cover-accent" aria-hidden="true"></div>
+                </figure>
             </div>
         </section>
 
