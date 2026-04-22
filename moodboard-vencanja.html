@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="sr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaš dan — vizuelni moodboard | Angelic Photo</title>
+<meta name="description" content="Vizuelni moodboard za fotografisanje venčanja - kadrovi, emocije i trenuci koje čuvamo zauvek.">
+<meta name="robots" content="noindex, nofollow">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Allura&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0f0d0a;
+    --bg-soft: #1a1612;
+    --fg: #f4ede1;
+    --fg-soft: #9c9287;
+    --gold: #d4a857;
+    --gold-dark: #a77d2f;
+    --border: rgba(212, 168, 87, 0.15);
+    --ff-serif: 'Playfair Display', Georgia, serif;
+    --ff-script: 'Allura', cursive;
+    --ff-body: 'Inter', -apple-system, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--bg); color: var(--fg); font-family: var(--ff-body); font-weight: 300; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  img { display: block; max-width: 100%; height: auto; }
+
+  /* ─── Intro / Hero ─── */
+  .mb-hero {
+    min-height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background:
+      radial-gradient(ellipse at top, rgba(212, 168, 87, 0.08), transparent 60%),
+      linear-gradient(180deg, #0f0d0a 0%, #1a1612 100%);
+    position: relative;
+  }
+  .mb-hero::before {
+    content: '';
+    position: absolute;
+    inset: 5%;
+    border: 1px solid var(--border);
+    pointer-events: none;
+  }
+  .mb-hero__eyebrow {
+    font-family: var(--ff-script);
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .mb-hero__title {
+    font-family: var(--ff-serif);
+    font-weight: 400;
+    font-size: clamp(2.8rem, 7vw, 5.5rem);
+    letter-spacing: -0.02em;
+    line-height: 1.04;
+    max-width: 900px;
+    margin: 0 auto 1.75rem;
+  }
+  .mb-hero__title em { font-style: italic; color: var(--gold); }
+  .mb-hero__lede {
+    max-width: 640px;
+    margin: 0 auto 2rem;
+    color: var(--fg-soft);
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+  .mb-hero__dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: var(--gold);
+    border-radius: 50%;
+    margin: 0 1rem;
+    vertical-align: middle;
+  }
+  .mb-hero__meta {
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--fg-soft);
+    margin-top: 2rem;
+  }
+
+  /* ─── Sekcije ─── */
+  .mb-section { padding: clamp(4rem, 9vw, 8rem) clamp(1.25rem, 4vw, 4rem); max-width: 1500px; margin: 0 auto; }
+  .mb-section__header { max-width: 760px; margin: 0 auto clamp(3rem, 6vw, 5rem); text-align: center; }
+  .mb-section__num { font-family: var(--ff-serif); font-style: italic; font-size: 0.9rem; color: var(--gold); letter-spacing: 0.2em; }
+  .mb-section__num::before, .mb-section__num::after {
+    content: ''; display: inline-block; width: 40px; height: 1px; background: var(--gold);
+    vertical-align: middle; margin: 0 1rem;
+  }
+  .mb-section__title {
+    font-family: var(--ff-serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4.5vw, 3.3rem);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    margin: 1rem 0 1.25rem;
+  }
+  .mb-section__title em { font-style: italic; color: var(--gold); }
+  .mb-section__lede { color: var(--fg-soft); font-size: 1rem; line-height: 1.75; }
+
+  /* ─── Grid varijante ─── */
+  .mb-grid { display: grid; gap: clamp(0.5rem, 1.2vw, 1rem); }
+  .mb-grid--mosaic {
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(120px, 1fr);
+  }
+  .mb-grid--mosaic .mb-cell:nth-child(1) { grid-column: span 6; grid-row: span 3; }
+  .mb-grid--mosaic .mb-cell:nth-child(2) { grid-column: span 3; grid-row: span 2; }
+  .mb-grid--mosaic .mb-cell:nth-child(3) { grid-column: span 3; grid-row: span 2; }
+  .mb-grid--mosaic .mb-cell:nth-child(4) { grid-column: span 6; grid-row: span 2; }
+
+  .mb-grid--triptych { grid-template-columns: repeat(3, 1fr); }
+  .mb-grid--triptych .mb-cell { aspect-ratio: 3/4; }
+  .mb-grid--triptych .mb-cell:nth-child(2) { transform: translateY(clamp(1rem, 3vw, 3rem)); }
+
+  .mb-grid--duo { grid-template-columns: 1.2fr 1fr; }
+  .mb-grid--duo .mb-cell:nth-child(1) { aspect-ratio: 4/5; }
+  .mb-grid--duo .mb-cell:nth-child(2) { aspect-ratio: 3/4; align-self: center; }
+
+  .mb-grid--strip { grid-template-columns: repeat(4, 1fr); }
+  .mb-grid--strip .mb-cell { aspect-ratio: 3/4; }
+
+  @media (max-width: 900px) {
+    .mb-grid--mosaic { grid-template-columns: repeat(6, 1fr); grid-auto-rows: 140px; }
+    .mb-grid--mosaic .mb-cell { grid-column: span 6 !important; grid-row: span 2 !important; }
+    .mb-grid--triptych, .mb-grid--duo, .mb-grid--strip { grid-template-columns: 1fr 1fr; }
+    .mb-grid--triptych .mb-cell:nth-child(2) { transform: none; }
+  }
+  @media (max-width: 540px) {
+    .mb-grid--mosaic { grid-auto-rows: 160px; }
+    .mb-grid--triptych, .mb-grid--duo, .mb-grid--strip { grid-template-columns: 1fr; }
+  }
+
+  .mb-cell {
+    position: relative;
+    overflow: hidden;
+    background: var(--bg-soft);
+    border-radius: 4px;
+  }
+  .mb-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.2s ease;
+  }
+  .mb-cell:hover img { transform: scale(1.03); }
+
+  /* Citat / quote block */
+  .mb-quote {
+    max-width: 760px;
+    margin: clamp(4rem, 8vw, 7rem) auto;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  .mb-quote__mark {
+    font-family: var(--ff-serif);
+    font-size: 5rem;
+    color: var(--gold);
+    line-height: 0.6;
+    opacity: 0.5;
+  }
+  .mb-quote__text {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(1.4rem, 3vw, 2.1rem);
+    line-height: 1.5;
+    margin: 1rem 0 1.5rem;
+  }
+  .mb-quote__author {
+    font-family: var(--ff-script);
+    font-size: 1.6rem;
+    color: var(--gold);
+  }
+
+  /* ─── Razdelnik ─── */
+  .mb-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: clamp(2rem, 5vw, 4rem) auto;
+    max-width: 400px;
+    color: var(--gold);
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  .mb-divider::before, .mb-divider::after {
+    content: ''; flex: 1; height: 1px; background: currentColor; opacity: 0.4;
+  }
+
+  /* ─── CTA ─── */
+  .mb-cta {
+    text-align: center;
+    padding: clamp(5rem, 10vw, 9rem) clamp(1.5rem, 4vw, 3rem);
+    background:
+      radial-gradient(ellipse at center, rgba(212, 168, 87, 0.1), transparent 60%),
+      linear-gradient(180deg, #1a1612, #0f0d0a);
+    border-top: 1px solid var(--border);
+  }
+  .mb-cta__eyebrow { font-family: var(--ff-script); font-size: 2rem; color: var(--gold); }
+  .mb-cta__title {
+    font-family: var(--ff-serif); font-weight: 400;
+    font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.15;
+    max-width: 720px; margin: 1rem auto 1.5rem;
+  }
+  .mb-cta__text { max-width: 540px; margin: 0 auto 2.5rem; color: var(--fg-soft); }
+  .mb-cta__actions { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+  .mb-btn {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    padding: 1.1rem 2.2rem; border-radius: 999px;
+    font-weight: 500; font-size: 0.95rem;
+    text-decoration: none; transition: all 0.25s;
+    white-space: nowrap;
+  }
+  .mb-btn--primary { background: var(--gold); color: #1a1612; }
+  .mb-btn--primary:hover { background: var(--fg); transform: translateY(-1px); }
+  .mb-btn--ghost { background: transparent; color: var(--fg); border: 1px solid var(--border); }
+  .mb-btn--ghost:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* ─── Footer ─── */
+  .mb-footer {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    color: var(--fg-soft);
+    font-size: 0.85rem;
+  }
+  .mb-footer__brand {
+    font-family: var(--ff-script);
+    font-size: 2rem;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+  .mb-footer a { color: var(--gold); text-decoration: none; }
+
+  /* Subtile fade-in */
+  @media (prefers-reduced-motion: no-preference) {
+    .mb-cell { opacity: 0; animation: mbFade 0.9s ease-out forwards; }
+    .mb-cell:nth-child(1) { animation-delay: 0.05s; }
+    .mb-cell:nth-child(2) { animation-delay: 0.15s; }
+    .mb-cell:nth-child(3) { animation-delay: 0.25s; }
+    .mb-cell:nth-child(4) { animation-delay: 0.35s; }
+    .mb-cell:nth-child(5) { animation-delay: 0.45s; }
+    .mb-cell:nth-child(6) { animation-delay: 0.55s; }
+  }
+  @keyframes mbFade { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+</style>
+</head>
+<body>
+
+<!-- ─── HERO ─── -->
+<section class="mb-hero">
+  <div>
+    <p class="mb-hero__eyebrow">Vaš dan, vaša priča</p>
+    <h1 class="mb-hero__title">Od prvog pogleda do <em>poslednjeg plesa.</em></h1>
+    <p class="mb-hero__lede">
+      Svako venčanje ima svoj ritam, svoju paletu boja, svoje male trenutke koji se ne ponavljaju.
+      Ovo je vizuelni putokaz — kadrovi, atmosfera i emocije koje zajedno možemo da uhvatimo za vaš dan.
+    </p>
+    <p class="mb-hero__meta">Moodboard <span class="mb-hero__dot"></span> Fotografisanje venčanja <span class="mb-hero__dot"></span> Angelic Photo</p>
+  </div>
+</section>
+
+
+<!-- ─── 01 · PRIPREMA ─── -->
+<section class="mb-section">
+  <div class="mb-section__header">
+    <p class="mb-section__num">01 — Priprema</p>
+    <h2 class="mb-section__title">Pre nego što <em>sve počne</em></h2>
+    <p class="mb-section__lede">Tiha soba, šolja kafe u ruci, haljina koja čeka. Trenuci iščekivanja — nervoza i uzbuđenje pomešani u jedno. Ovo su kadrovi koji pričaju priču pre same priče.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--mosaic">
+    <div class="mb-cell"><img src="images/vencanje24.webp" alt="Detalj venčanice pre ceremonije" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1594552072238-c29e9a9c3b5d?auto=format&fit=crop&w=900&q=80" alt="Priprema — mlada i njena majka" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje27.webp" alt="Intimni trenuci pre ceremonije" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" alt="Detalj prstenja i buketa" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── QUOTE 1 ─── -->
+<div class="mb-quote">
+  <div class="mb-quote__mark">"</div>
+  <p class="mb-quote__text">Najtiši trenuci često pričaju najglasnije priče.</p>
+  <p class="mb-quote__author">Anđela</p>
+</div>
+
+
+<!-- ─── 02 · OBRED ─── -->
+<section class="mb-section" style="background: var(--bg-soft);">
+  <div class="mb-section__header">
+    <p class="mb-section__num">02 — Obred</p>
+    <h2 class="mb-section__title">Trenutak kada <em>"da"</em> promeni sve</h2>
+    <p class="mb-section__lede">Pogled koji izmenjujete pred oltarom. Drhtaj u glasu kad izgovarate zakletvu. Dlan u dlanu. Suze sreće u oku nečiji bliski. Ovo su kadrovi koji se gledaju za 30 godina.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--triptych">
+    <div class="mb-cell"><img src="images/vencanje.webp" alt="Mladenci pred oltarom" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Ceremonija — emotivan trenutak" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje22.webp" alt="Emotivni trenutak obreda" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── 03 · DETALJI ─── -->
+<section class="mb-section">
+  <div class="mb-section__header">
+    <p class="mb-section__num">03 — Detalji koji čine dan</p>
+    <h2 class="mb-section__title">Male stvari <em>velike priče</em></h2>
+    <p class="mb-section__lede">Prsten na jastuku, cveće u rukama, mama koja poravnjava veo. Detalji se često ne pamte u trenutku, ali su oni ti koji kasnije vraćaju osećaj tog dana nazad.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--strip">
+    <div class="mb-cell"><img src="images/vencanje25.webp" alt="Svadbeni buket i prstenje" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=80" alt="Detalj venčanog prstena" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje20.webp" alt="Detalj prstenja i cveća" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=80" alt="Cveće na svadbenom stolu" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── 04 · MLADENCI PORTRET ─── -->
+<section class="mb-section" style="background: var(--bg-soft);">
+  <div class="mb-section__header">
+    <p class="mb-section__num">04 — Portreti mladenaca</p>
+    <h2 class="mb-section__title">Samo vas dvoje, <em>svet oko vas staje</em></h2>
+    <p class="mb-section__lede">Kada se povučemo na stranu, iz žurbe dana, i pustimo svetlo da radi svoje. Vaša geografija — pogled, dodir, osmeh samo njemu/njoj. Neretirana intima pred objektivom.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--duo">
+    <div class="mb-cell"><img src="images/vencanje26.webp" alt="Mladenci u zlatnom času" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje30.webp" alt="Romantični portret para" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── QUOTE 2 ─── -->
+<div class="mb-quote">
+  <div class="mb-quote__mark">"</div>
+  <p class="mb-quote__text">Ne fotografišem venčanja. Pamtim ih u vaše ime.</p>
+  <p class="mb-quote__author">Anđela</p>
+</div>
+
+
+<!-- ─── 05 · ZLATNI ČAS ─── -->
+<section class="mb-section">
+  <div class="mb-section__header">
+    <p class="mb-section__num">05 — Zlatni čas</p>
+    <h2 class="mb-section__title">Sat kada <em>svetlo postaje zlato</em></h2>
+    <p class="mb-section__lede">Pola sata pre zalaska — ono kada sve izgleda kao iz filma. Ako vaša lokacija i raspored dozvole, rezervišemo baš taj prozor za portret-setup koji će biti uvodna slika vašeg albuma.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--mosaic">
+    <div class="mb-cell"><img src="images/vencanje18.webp" alt="Mladenci u zalasku sunca" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=900&q=80" alt="Zlatni sat — portret para" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje17.webp" alt="Portret u zlatnom času" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje16.webp" alt="Par pred zalazak sunca" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── 06 · EMOCIJE I GOSTI ─── -->
+<section class="mb-section" style="background: var(--bg-soft);">
+  <div class="mb-section__header">
+    <p class="mb-section__num">06 — Emocije i gosti</p>
+    <h2 class="mb-section__title">Suza, <em>smeh</em>, zagrljaj</h2>
+    <p class="mb-section__lede">Baka koja briše oko. Otac koji izgovara zdravicu sa knedlom u grlu. Kuma koja se smeje do suza. Ovo su kadrovi za koje gosti kažu "nisam ni primetio da me fotografišeš" — i to je cela poenta.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--strip">
+    <div class="mb-cell"><img src="images/vencanje32.webp" alt="Emocije gostiju na venčanju" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje33.webp" alt="Suza radosnica — ceremonija" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1507908708918-778587c9e563?auto=format&fit=crop&w=700&q=80" alt="Smeh gostiju" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje28.webp" alt="Svadbeno slavlje — gosti" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── 07 · PRVI PLES I SLAVLJE ─── -->
+<section class="mb-section">
+  <div class="mb-section__header">
+    <p class="mb-section__num">07 — Prvi ples & slavlje</p>
+    <h2 class="mb-section__title">Noć <em>počinje</em></h2>
+    <p class="mb-section__lede">Sve što se dogodilo do sada bilo je preludijum. Prvi ples, upaljene sveće, odlazak podijuma u ludilo. Mešavina filmskog svetla, svadbenih bengalski vatri i emocije koja se ne gasi do jutra.</p>
+  </div>
+
+  <div class="mb-grid mb-grid--triptych">
+    <div class="mb-cell"><img src="images/vencanje23.webp" alt="Prvi ples mladenaca" loading="lazy"></div>
+    <div class="mb-cell"><img src="images/vencanje31.webp" alt="Prvi poljubac mladenaca" loading="lazy"></div>
+    <div class="mb-cell"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Svadbeno slavlje — večernji momenat" loading="lazy"></div>
+  </div>
+</section>
+
+
+<!-- ─── DIVIDER ─── -->
+<div class="mb-divider">— vaš dan, vaš tempo —</div>
+
+
+<!-- ─── CTA ─── -->
+<section class="mb-cta">
+  <p class="mb-cta__eyebrow">Hajde da se upoznamo</p>
+  <h2 class="mb-cta__title">Svaka priča je drugačija. <em>Vaša</em> je jedinstvena.</h2>
+  <p class="mb-cta__text">
+    Ako vas je nešto od ovoga dotaklo — javite mi se. Popijemo kafu (uživo ili online), popričamo o vašem danu, o lokaciji, o stilu koji vi volite. Bez obaveze, bez pritiska.
+  </p>
+  <div class="mb-cta__actions">
+    <a href="/kontakt.html" class="mb-btn mb-btn--primary">Zakažite razgovor →</a>
+    <a href="https://wa.me/381666702000" class="mb-btn mb-btn--ghost" target="_blank" rel="noopener">WhatsApp poruka</a>
+  </div>
+</section>
+
+
+<!-- ─── FOOTER ─── -->
+<footer class="mb-footer">
+  <p class="mb-footer__brand">Angelic Photography</p>
+  <p>Anđela Ranđelović · <a href="tel:+381666702000">+381 66 670 2000</a> · <a href="https://angelicphoto.rs">angelicphoto.rs</a></p>
+  <p style="margin-top:.5rem;opacity:.6">Pančevo · Beograd · Novi Sad · cela Srbija</p>
+</footer>
+
+</body>
+</html>
