@@ -3341,7 +3341,7 @@ em {
   position: relative;
   background: var(--h-bg);
   color: var(--h-fg);
-  padding: calc(var(--header-h, 80px) + clamp(1rem,2vw,2rem)) clamp(1rem,3vw,2.5rem) clamp(3rem,5vw,4.5rem);
+  padding: calc(var(--header-h, 80px) + clamp(2.5rem,4vw,4rem)) clamp(1rem,3vw,2.5rem) clamp(3rem,5vw,4.5rem);
   overflow: hidden;
 }
 .svc-hero__grid {
@@ -3447,29 +3447,24 @@ em {
 
 .svc-hero__cover {
   position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-  background: var(--h-cover-bg);
-  aspect-ratio: 4/5;
-  max-height: 700px;
-  justify-self: end;
-  width: 100%;
-  box-shadow: 0 30px 60px -30px rgba(26,26,46,.25), 0 10px 20px -15px rgba(26,26,46,.15);
+  justify-self: center;
+  width: fit-content;
+  max-width: 100%;
   margin: 0;
+  display: block;
 }
 .svc-hero__cover-img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  transform: scale(1);
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 640px;
+  border-radius: 14px;
+  box-shadow:
+    0 30px 60px -20px rgba(0,0,0,.35),
+    0 12px 24px -12px rgba(0,0,0,.2),
+    0 2px 6px rgba(0,0,0,.08);
 }
-@media (prefers-reduced-motion: no-preference) {
-  .svc-hero__cover-img { animation: svcHeroZoom 16s ease-out forwards; }
-}
-@keyframes svcHeroZoom { from { transform: scale(1.08); } to { transform: scale(1); } }
 .svc-hero__cover-accent {
   position: absolute;
   right: -40px;
