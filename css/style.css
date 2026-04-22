@@ -3375,13 +3375,15 @@ em {
   white-space: nowrap;
 }
 .svc-hero__btn--primary {
-  background: var(--h-accent);
+  background: var(--clr-primary, #b8860b);
   color: #fff;
-  border: 1px solid var(--h-accent);
+  border: 1px solid var(--clr-primary, #b8860b);
+  font-weight: 600;
 }
 .svc-hero__btn--primary:hover {
-  background: var(--h-accent-dark);
-  border-color: var(--h-accent-dark);
+  background: var(--clr-primary-dark, #8a6508);
+  border-color: var(--clr-primary-dark, #8a6508);
+  color: #fff;
   transform: translateY(-1px);
   box-shadow: 0 12px 26px -12px rgba(184,134,11,.5);
 }
