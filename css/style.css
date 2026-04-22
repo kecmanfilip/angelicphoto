@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* Brand tekst u headeru — vidljiv samo na mobilnom */
+.header__brand {
+    display: none;
+}
+@media (max-width: 968px) {
+    .header__brand {
+        display: block;
+        font-family: 'Great Vibes', 'Playfair Display', cursive;
+        font-size: clamp(1.5rem, 5.5vw, 2rem);
+        line-height: 1;
+        color: #b8860b;
+        -webkit-text-stroke: 0.6px #1a1a1a;
+        white-space: nowrap;
+        flex: 0 1 auto;
+        padding: 0 0.5rem;
+        text-align: center;
+        pointer-events: none;
+    }
+}
+
 @media (max-width: 968px) {
     .nav__dropdown {
         position: static !important;
@@ -3319,7 +3341,7 @@ em {
   position: relative;
   background: var(--h-bg);
   color: var(--h-fg);
-  padding: clamp(2rem,4vw,3.5rem) clamp(1rem,3vw,2.5rem) clamp(3rem,5vw,4.5rem);
+  padding: calc(var(--header-h, 80px) + clamp(1rem,2vw,2rem)) clamp(1rem,3vw,2.5rem) clamp(3rem,5vw,4.5rem);
   overflow: hidden;
 }
 .svc-hero__grid {
