@@ -208,7 +208,7 @@ Ako se menja DOM struktura navigacije ili blog listinga — proveriti da JS i da
 | Ime | Anđela |
 | Telefon | +381 66 670 2000 |
 | WhatsApp | https://wa.me/381666702000 |
-| Instagram | @angelic__photo |
+| Instagram | @angelicphoto.rs |
 | Sajt | https://angelicphoto.rs |
 | Sedište | Pančevo (studio), dolazi na adresu u Beograd, Novi Sad, cela Srbija |
 | Radno vreme | Pon–Pet 09:00–20:00, Sub 10:00–18:00, Ned zatvoreno |

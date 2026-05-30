@@ -107,7 +107,7 @@ LOKACIJA I KONTEKST:
 - Anđela dolazi na adresu klijenata (Pančevo, Beograd, Novi Sad, cela Srbija)
 - Nudi: fotografisanje trudnica, beba, porodica, venčanja, krštenja, rođendana, biznis portrete, proizvode, modeling
 - Sajt: angelicphoto.rs
-- Instagram: @angelic__photo
+- Instagram: @angelicphoto.rs
 - Kontakt: +381 66 670 2000
 
 SEO ZAHTEVI:
@@ -295,7 +295,7 @@ brand:
   font_heading: "'Playfair Display', serif"    # Elegant serif for headlines
   font_body: "'Lato', sans-serif"              # Clean sans for body text
   logo_path: "images/logo.jpg"
-  instagram_handle: "@angelic__photo"
+  instagram_handle: "@angelicphoto.rs"
   website: "angelicphoto.rs"
   phone: "+381 66 670 2000"
 ```
@@ -374,7 +374,7 @@ site:
 brand:
   author: "Anđela"
   phone: "+381 66 670 2000"
-  instagram: "@angelic__photo"
+  instagram: "@angelicphoto.rs"
   logo: "images/logo.jpg"
 
 # Carousel
