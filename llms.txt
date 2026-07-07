@@ -4,6 +4,7 @@
 
 - Sajt: https://angelicphoto.rs
 - Cenovnik (sve cene): https://angelicphoto.rs/cenovnik.html
+- Galerija (sve fotografije po uslugama): https://angelicphoto.rs/galerija.html
 - O meni: https://angelicphoto.rs/o-meni.html
 
 ---
@@ -12,6 +13,7 @@
 
 Nežne i emotivne fotografije trudničkog perioda. U studiju u Pančevu ili na lokaciji po izboru.
 Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
+Galerija: https://angelicphoto.rs/galerija.html#trudnice
 
 ### Osnovni paket
 - Cena: 60€
@@ -43,6 +45,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-trudnica.html
 
 Nežne fotografije vaših najmanjih. Bez žurbe, beba diktira tempo.
 Stranica: https://angelicphoto.rs/fotografisanje-beba.html
+Galerija: https://angelicphoto.rs/galerija.html#bebe
 
 ### Osnovni paket
 - Cena: 60€
@@ -74,6 +77,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-beba.html
 
 Prirodne i tople porodične fotografije. Od beba do baka i deka, uključujući kućne ljubimce.
 Stranica: https://angelicphoto.rs/porodicno-fotografisanje.html
+Galerija: https://angelicphoto.rs/galerija.html#porodice
 
 ### Osnovni paket
 - Cena: 60€
@@ -105,6 +109,7 @@ Stranica: https://angelicphoto.rs/porodicno-fotografisanje.html
 
 Svaki momenat vašeg najvažnijeg dana, sačuvan zauvek u prirodnim, emotivnim fotografijama.
 Stranica: https://angelicphoto.rs/fotografisanje-vencanja.html
+Galerija: https://angelicphoto.rs/galerija.html#vencanja
 
 ### Pola dana
 - Cena: 150€
@@ -136,6 +141,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-vencanja.html
 
 Svaki blagoslov, svaki osmeh, svaki zagrljaj. Sačuvano u fotografijama za ceo život.
 Stranica: https://angelicphoto.rs/fotografisanje-krstenja.html
+Galerija: https://angelicphoto.rs/galerija.html#krstenja
 
 ### Samo crkva
 - Cena: 80€
@@ -167,6 +173,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-krstenja.html
 
 Svaki osmeh, svaka svećica, svaki poklon. Sačuvajte magiju proslavlja.
 Stranica: https://angelicphoto.rs/fotografisanje-rodjendana.html
+Galerija: https://angelicphoto.rs/galerija.html#rodjendani
 
 ### Studio / Smash the Cake
 - Cena: 70€
@@ -198,6 +205,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-rodjendana.html
 
 Profesionalni portreti za LinkedIn, CV, sajt i lični brend.
 Stranica: https://angelicphoto.rs/biznis-portreti.html
+Galerija: https://angelicphoto.rs/galerija.html#biznis
 
 ### Individualni portret
 - Cena: 40€
@@ -228,6 +236,7 @@ Stranica: https://angelicphoto.rs/biznis-portreti.html
 
 Profesionalne fotografije proizvoda za e-commerce, web shop i društvene mreže.
 Stranica: https://angelicphoto.rs/fotografisanje-proizvoda.html
+Galerija: https://angelicphoto.rs/galerija.html#proizvodi
 
 ### Bela pozadina (packshot)
 - Cena: 5€ po fotografiji
@@ -250,6 +259,7 @@ Stranica: https://angelicphoto.rs/fotografisanje-proizvoda.html
 
 Portfolio, editorial i lični brend. Kreativne sesije za modele i influensere.
 Stranica: https://angelicphoto.rs/modeling-fotografisanje.html
+Galerija: https://angelicphoto.rs/galerija.html#modeling
 
 ### Starter
 - Cena: 80€
