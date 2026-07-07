@@ -3465,15 +3465,26 @@ em {
   .svc-hero__price-btn {
     display: inline-flex;
     align-items: center;
-    padding: .35rem .7rem;
-    background: var(--clr-primary);
+    gap: .4rem;
+    padding: .6rem 1.15rem;
+    background: linear-gradient(135deg, var(--clr-primary-light), var(--clr-primary));
     color: #fff;
     border-radius: 999px;
-    font-size: .72rem;
+    font-size: .85rem;
     font-weight: 600;
+    letter-spacing: .02em;
     text-decoration: none;
     white-space: nowrap;
     flex: none;
+    box-shadow: 0 3px 12px rgba(184, 134, 11, .35);
+  }
+  .svc-hero__price-btn::after {
+    content: '↓';
+    font-size: .85em;
+    line-height: 1;
+  }
+  .svc-hero__price-btn:active {
+    transform: scale(.97);
   }
 }
 
