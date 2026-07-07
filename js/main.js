@@ -279,17 +279,33 @@
         var currentIndex = 0;
         var galleryImages = [];
 
-        // Sakupi sve slike iz galerije
-        galleryItems.forEach(function (item, index) {
+        // Sakupi trenutno vidljive slike (na galerija stranici sakriveni
+        // paneli ne ulaze u navigaciju strelicama)
+        function collectVisibleImages() {
+            galleryImages = [];
+            galleryItems.forEach(function (item) {
+                var img = item.querySelector('.gallery-grid__img, .gallery-masonry__img');
+                if (img && item.offsetParent !== null) {
+                    galleryImages.push({
+                        src: img.src,
+                        alt: img.alt
+                    });
+                }
+            });
+        }
+
+        galleryItems.forEach(function (item) {
             var img = item.querySelector('.gallery-grid__img, .gallery-masonry__img');
             if (img) {
-                galleryImages.push({
-                    src: img.src,
-                    alt: img.alt
-                });
-
                 item.addEventListener('click', function () {
-                    currentIndex = index;
+                    collectVisibleImages();
+                    currentIndex = 0;
+                    for (var i = 0; i < galleryImages.length; i++) {
+                        if (galleryImages[i].src === img.src) {
+                            currentIndex = i;
+                            break;
+                        }
+                    }
                     openLightbox(currentIndex);
                 });
             }
@@ -348,6 +364,52 @@
             if (e.key === 'Escape') closeLightbox();
             if (e.key === 'ArrowLeft') showPrev();
             if (e.key === 'ArrowRight') showNext();
+        });
+    }
+
+
+    // ═══════════════════════════════════════════
+    // GALERIJA STRANICA - FILTER PO USLUGAMA
+    // ═══════════════════════════════════════════
+    var galerijaBtns = document.querySelectorAll('[data-galerija-btn]');
+    if (galerijaBtns.length > 0) {
+        var galerijaPanels = document.querySelectorAll('[data-galerija-panel]');
+
+        function activateGalerija(slug, updateHash) {
+            var found = false;
+            galerijaPanels.forEach(function (panel) {
+                var match = panel.getAttribute('data-galerija-panel') === slug;
+                if (match) found = true;
+                panel.hidden = !match;
+            });
+            if (!found) return;
+
+            galerijaBtns.forEach(function (btn) {
+                btn.classList.toggle(
+                    'blog-categories__btn--active',
+                    btn.getAttribute('data-galerija-btn') === slug
+                );
+            });
+
+            if (updateHash && window.history && window.history.replaceState) {
+                window.history.replaceState(null, '', '#' + slug);
+            }
+        }
+
+        galerijaBtns.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                activateGalerija(this.getAttribute('data-galerija-btn'), true);
+            });
+        });
+
+        // #hash u URL-u bira kategoriju (npr. galerija.html#bebe)
+        var initialSlug = window.location.hash.replace('#', '');
+        if (initialSlug) {
+            activateGalerija(initialSlug, false);
+        }
+
+        window.addEventListener('hashchange', function () {
+            activateGalerija(window.location.hash.replace('#', ''), false);
         });
     }
 

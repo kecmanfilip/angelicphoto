@@ -908,12 +908,13 @@ em {
 }
 
 .page-hero__breadcrumb a {
-    color: var(--clr-primary);
+    color: rgba(255, 255, 255, 0.85);
     font-weight: var(--fw-medium);
 }
 
 .page-hero__breadcrumb a:hover {
-    color: var(--clr-primary-dark);
+    color: #fff;
+    text-decoration: underline;
 }
 
 .page-hero__heading {
@@ -1889,6 +1890,19 @@ em {
     .gallery-masonry {
         columns: 1;
     }
+}
+
+
+/* ═══════════════════════════════════════════════════════
+   GALERIJA STRANICA (filter po uslugama)
+   ═══════════════════════════════════════════════════════ */
+.galerija {
+    padding: var(--space-2xl) 0 var(--space-4xl);
+}
+
+.galerija-panel__more {
+    text-align: center;
+    margin-top: var(--space-2xl);
 }
 
 
