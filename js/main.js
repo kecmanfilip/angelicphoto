@@ -154,6 +154,52 @@
     // ═══════════════════════════════════════════
     // SMOOTH SCROLL ZA ANCHOR LINKOVE
     // ═══════════════════════════════════════════
+    // Posle smooth scrolla pozicija se koriguje jos ~3s jer lazy slike i
+    // fontovi koji se ucitavaju usput pomeraju cilj. Korekcija se prekida
+    // cim korisnik sam skroluje ili dodirne ekran.
+    var scrollCorrection = null;
+
+    function cancelScrollCorrection() {
+        if (scrollCorrection) {
+            clearInterval(scrollCorrection);
+            scrollCorrection = null;
+        }
+    }
+
+    ['wheel', 'touchstart', 'pointerdown', 'keydown'].forEach(function (ev) {
+        window.addEventListener(ev, cancelScrollCorrection, { passive: true });
+    });
+
+    function scrollToAnchor(target) {
+        var targetPos = target.getBoundingClientRect().top + window.pageYOffset - header.offsetHeight;
+
+        window.scrollTo({
+            top: targetPos,
+            behavior: 'smooth'
+        });
+
+        cancelScrollCorrection();
+        var deadline = Date.now() + 3000;
+        var lastY = -1;
+
+        scrollCorrection = setInterval(function () {
+            var y = window.pageYOffset;
+            var settled = Math.abs(y - lastY) < 2;
+            lastY = y;
+            if (!settled) return;
+
+            var desired = target.getBoundingClientRect().top + y - header.offsetHeight;
+            var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            desired = Math.max(0, Math.min(desired, maxScroll));
+
+            if (Math.abs(desired - y) > 4) {
+                window.scrollTo({ top: desired, behavior: 'instant' });
+            } else if (Date.now() > deadline) {
+                cancelScrollCorrection();
+            }
+        }, 250);
+    }
+
     document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
         anchor.addEventListener('click', function (e) {
             var targetId = this.getAttribute('href');
@@ -163,14 +209,7 @@
             if (target) {
                 e.preventDefault();
                 closeMobileMenu();
-
-                var headerHeight = header.offsetHeight;
-                var targetPos = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-
-                window.scrollTo({
-                    top: targetPos,
-                    behavior: 'smooth'
-                });
+                scrollToAnchor(target);
             }
         });
     });
