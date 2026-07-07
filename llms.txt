@@ -5,6 +5,7 @@
 - Sajt: https://angelicphoto.rs
 - Cenovnik (sve cene): https://angelicphoto.rs/cenovnik.html
 - Galerija (sve fotografije po uslugama): https://angelicphoto.rs/galerija.html
+- Recenzije klijenata (5.0 na Google-u, 49 recenzija): https://angelicphoto.rs/recenzije.html
 - O meni: https://angelicphoto.rs/o-meni.html
 
 ---
@@ -321,6 +322,27 @@ Za studio sesije u Pančevu nema putnih troškova. Za lokacije van Pančeva putn
 
 ---
 
+## Recenzije klijenata
+
+Angelic Photo ima prosečnu ocenu 5.0 od 5 na Google-u, na osnovu 49 recenzija.
+Stranica sa recenzijama: https://angelicphoto.rs/recenzije.html
+Google profil: https://maps.app.goo.gl/y6uoaqKbq8MMT59y7
+
+Klijenti najčešće ističu:
+- Opuštenu i prijatnu atmosferu (sesije počinju razgovorom i kafom, bez žurbe)
+- Pomoć pri poziranju (idealno za ljude koji "ne umeju da poziraju")
+- Strpljenje i smirenost u radu sa bebama i decom
+- Brzu isporuku obrađenih fotografija (često i istog dana)
+- Pristupačne cene i fleksibilnost oko termina
+
+Primeri recenzija:
+- "Vrlo profesionalna i posvećena osoba poslu kojim se bavi. Nisam neko ko ume da pozira, ali uz njenu pomoć fotografije su uvek ispale vrhunski." - Sara Stokić
+- "Slikala je mene i supruga sa našom tek rođenom bebom i prezadovoljni smo rezultatom. Bila je veoma prijatna, strpljiva i imala je divnu, smirujuću energiju." - Mirjana Runić
+- "One of the best photographers I've ever worked with! Very fun and professional, gives great instructions on how to pose." - Dajana Bakmaz
+- "Kvalitet slika je odličan, sve fotografije smo dobili istog dana. Posebno nam znači što je imala strpljenja za decu i uhvatila spontane momente." - Milena Stojiljković
+
+---
+
 ## O fotografkinji
 
 Anđela je profesionalna fotografkinja sa 9 vrsta fotografskih usluga. Studio se nalazi u Pančevu, a dolazi i na adresu klijenata u celoj Srbiji. Poznata je po toplim, emocionalnim i prirodnim fotografijama koje hvataju iskrene trenutke.
@@ -335,6 +357,7 @@ Anđela je profesionalna fotografkinja sa 9 vrsta fotografskih usluga. Studio se
 - https://angelicphoto.rs/ (Početna stranica)
 - https://angelicphoto.rs/cenovnik.html (Kompletan cenovnik svih usluga)
 - https://angelicphoto.rs/galerija.html (Galerija svih fotografija po uslugama)
+- https://angelicphoto.rs/recenzije.html (Recenzije klijenata - 5.0 na Google-u)
 - https://angelicphoto.rs/fotografisanje-trudnica.html (Fotografisanje trudnica)
 - https://angelicphoto.rs/fotografisanje-beba.html (Fotografisanje beba)
 - https://angelicphoto.rs/porodicno-fotografisanje.html (Porodično fotografisanje)
