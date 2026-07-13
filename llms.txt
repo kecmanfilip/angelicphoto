@@ -49,16 +49,16 @@ Stranica: https://angelicphoto.rs/fotografisanje-beba.html
 Galerija: https://angelicphoto.rs/galerija.html#bebe
 
 ### Osnovni paket
-- Cena: 60€
-- Broj fotografija: 20 profesionalno obrađenih
+- Cena: 70€
+- Broj fotografija: 15 profesionalno obrađenih
 - Lokacija: studio u Pančevu
 - Uključeno: neograničeno vreme (beba diktira tempo), 2 rekvizita po izboru, ručna obrada svake slike, digitalna dostava u HD rezoluciji
 - Rok isporuke: 7 dana
 - Napomena: moguće samo u studiju u Pančevu
 
 ### Standard paket (najpopularniji)
-- Cena: 80€
-- Broj fotografija: 30 profesionalno obrađenih
+- Cena: 90€
+- Broj fotografija: 25 profesionalno obrađenih
 - Lokacija: studio ili lokacija po izboru
 - Uključeno: neograničeno vreme, 3 rekvizita po izboru, porodične fotografije uključene, ekspresna obrada
 - Rok isporuke: 5 dana
@@ -66,10 +66,18 @@ Galerija: https://angelicphoto.rs/galerija.html#bebe
 
 ### Premium paket
 - Cena: 120€
-- Broj fotografija: 40 profesionalno obrađenih
+- Broj fotografija: 35 profesionalno obrađenih
+- Lokacija: studio i/ili lokacija po izboru
+- Uključeno: 4 rekvizita po izboru, porodične fotografije uključene, ekspresna obrada
+- Rok isporuke: 4 dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
+
+### All-inclusive paket
+- Cena: 160€
+- Broj fotografija: 45 profesionalno obrađenih
 - Lokacija: studio i/ili lokacija po izboru
 - Uključeno: svi rekviziti i pozadine uključeni, porodične fotografije uključene, ekspresna obrada
-- Rok isporuke: 2 dana
+- Rok isporuke: 3 dana
 - Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
 
 ---

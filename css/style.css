@@ -2017,6 +2017,16 @@ em {
     align-items: start;
 }
 
+.pricing-cards--4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1200px) {
+    .pricing-cards--4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .pricing-card {
     border-radius: var(--radius-lg);
     background: var(--clr-white);
