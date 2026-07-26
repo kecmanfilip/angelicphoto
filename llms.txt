@@ -5,7 +5,7 @@
 - Sajt: https://angelicphoto.rs
 - Cenovnik (sve cene): https://angelicphoto.rs/cenovnik.html
 - Galerija (sve fotografije po uslugama): https://angelicphoto.rs/galerija.html
-- Recenzije klijenata (5.0 na Google-u, 49 recenzija): https://angelicphoto.rs/recenzije.html
+- Recenzije klijenata (5.0 na Google-u, 54 recenzija): https://angelicphoto.rs/recenzije.html
 - O meni: https://angelicphoto.rs/o-meni.html
 
 ---
@@ -233,7 +233,7 @@ Galerija: https://angelicphoto.rs/galerija.html#biznis
 
 ### Korporativni paket
 - Cena: 25€ po osobi (minimum 5 osoba)
-- Broj fotografija: 3 obrađene po osobi
+- Broj fotografija: 5 obrađenih po osobi
 - Trajanje: 15-20 minuta po osobi
 - Uključeno: ujednačen stil svih portreta, grupne timske fotografije uključene, dolazak u vašu firmu, putni troškovi uključeni za Pančevo, Beograd, Novi Sad
 - Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
@@ -331,7 +331,7 @@ Za studio sesije u Pančevu nema putnih troškova. Za lokacije van studija putni
 
 ## Recenzije klijenata
 
-Angelic Photo ima prosečnu ocenu 5.0 od 5 na Google-u, na osnovu 49 recenzija.
+Angelic Photo ima prosečnu ocenu 5.0 od 5 na Google-u, na osnovu 54 recenzija.
 Stranica sa recenzijama: https://angelicphoto.rs/recenzije.html
 Google profil: https://maps.app.goo.gl/y6uoaqKbq8MMT59y7
 
@@ -384,3 +384,4 @@ Anđela je profesionalna fotografkinja sa 9 vrsta fotografskih usluga. Studio se
 - https://angelicphoto.rs/blog/trudnicka-fotografija-idealno-vreme.html
 - https://angelicphoto.rs/blog/5-gresaka-linkedin-profil-profesionalna-fotografija.html
 - https://angelicphoto.rs/blog/uskrsnje-fotografisanje-studio-priroda.html
+- https://angelicphoto.rs/blog/zasto-fotografi-salju-samo-uredjene-fotografije.html
