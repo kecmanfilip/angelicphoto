@@ -216,7 +216,7 @@ Stranica: https://angelicphoto.rs/biznis-portreti.html
 Galerija: https://angelicphoto.rs/galerija.html#biznis
 
 ### Individualni portret
-- Cena: 40€
+- Cena: 50€
 - Broj fotografija: 10 obrađenih
 - Trajanje: 30-45 minuta
 - Uključeno: 1 garderobna opcija, profesionalna retuš obrada, isporuka u formatu za LinkedIn, CV, sajt
@@ -224,11 +224,19 @@ Galerija: https://angelicphoto.rs/galerija.html#biznis
 - Napomena: moguće samo u studiju u Pančevu
 
 ### Poslovni paket (najpopularniji)
-- Cena: 60€
-- Broj fotografija: 25 obrađenih
+- Cena: 70€
+- Broj fotografija: 20 obrađenih
 - Trajanje: do 90 minuta
-- Uključeno: do 3 garderobne opcije, fotografije u različitim stilovima i pozama, lični brend fotografije (ne samo headshot), ekspresna isporuka
+- Uključeno: 2 garderobne opcije, fotografije u različitim stilovima i pozama, lični brend fotografije (ne samo headshot), ekspresna isporuka
 - Rok isporuke: 3 radna dana
+- Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
+
+### Premium paket
+- Cena: 100€
+- Broj fotografija: 30 obrađenih
+- Trajanje: do 2 sata
+- Uključeno: 3-4 garderobne opcije, kompletna vizuelna priča ličnog brenda, ekspresna isporuka
+- Rok isporuke: 2 radna dana
 - Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
 
 ### Korporativni paket
