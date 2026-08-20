@@ -122,25 +122,25 @@ Galerija: https://angelicphoto.rs/galerija.html#vencanja
 
 ### Pola dana
 - Cena: 150€
-- Broj fotografija: do 100 obrađenih
+- Broj fotografija: bez fiksnog broja - kompletna galerija svih obrađenih fotografija
 - Pokrivenost: do 5 sati
-- Uključeno: ceremonija + foto sesija mladenaca, ručna obrada svake slike, teaser 10-15 slika za 48h, digitalna dostava u HD rezoluciji
+- Uključeno: ceremonija + foto sesija mladenaca, ručna obrada svake slike, teaser 10-15 slika za 48h, digitalna dostava u HD rezoluciji, štampanje fotografija na licu mesta za goste
 - Rok isporuke: maksimalno 2 nedelje
 - Napomena: doplata za putne troškove zavisi od tačne lokacije
 
 ### Ceo dan (najpopularniji)
 - Cena: 250€
-- Broj fotografija: do 200 obrađenih
+- Broj fotografija: bez fiksnog broja - kompletna galerija svih obrađenih fotografija
 - Pokrivenost: do 10 sati
-- Uključeno: pripreme + ceremonija + sesija + slavlje, ručna obrada svake slike, teaser 10-15 slika za 48h
+- Uključeno: pripreme + ceremonija + sesija + slavlje, ručna obrada svake slike, teaser 10-15 slika za 48h, štampanje fotografija na licu mesta za goste
 - Rok isporuke: 2 nedelje
 - Napomena: doplata za putne troškove zavisi od tačne lokacije
 
 ### Premium
 - Cena: 400€
-- Broj fotografija: do 300 obrađenih
+- Broj fotografija: bez fiksnog broja - kompletna galerija svih obrađenih fotografija
 - Pokrivenost: neograničena (ceo dan i noć)
-- Uključeno: engagement foto sesija pre venčanja, kompletna pokrivenost od priprema do kraja žurke, štampani foto album po želji, ekspresna obrada
+- Uključeno: engagement foto sesija pre venčanja, kompletna pokrivenost od priprema do kraja žurke, štampani foto album po želji, štampanje fotografija na licu mesta za goste, ekspresna obrada
 - Rok isporuke: 10 dana
 - Napomena: doplata za putne troškove zavisi od tačne lokacije
 
@@ -209,7 +209,7 @@ Galerija: https://angelicphoto.rs/galerija.html#rodjendani
 
 ---
 
-## Biznis portreti
+## Biznis fotografisanje
 
 Profesionalni portreti za LinkedIn, CV, sajt i lični brend.
 Stranica: https://angelicphoto.rs/biznis-portreti.html
@@ -388,7 +388,7 @@ Anđela je profesionalna fotografkinja sa 9 vrsta fotografskih usluga. Studio se
 - https://angelicphoto.rs/prewedding-sesija.html (Prewedding fotografisanje)
 - https://angelicphoto.rs/fotografisanje-krstenja.html (Fotografisanje krštenja)
 - https://angelicphoto.rs/fotografisanje-rodjendana.html (Fotografisanje rođendana)
-- https://angelicphoto.rs/biznis-portreti.html (Biznis portreti)
+- https://angelicphoto.rs/biznis-portreti.html (Biznis fotografisanje)
 - https://angelicphoto.rs/fotografisanje-proizvoda.html (Fotografisanje proizvoda)
 - https://angelicphoto.rs/modeling-fotografisanje.html (Modeling fotografisanje)
 - https://angelicphoto.rs/uskrsnje-fotografisanje.html (Uskršnje fotografisanje)
