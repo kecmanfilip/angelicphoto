@@ -1133,6 +1133,108 @@ em {
 }
 
 
+/* ─── Blog post: "Slični blog postovi" slajder ───
+   Deljena verzija — ne kopiraj inline u pojedinačne blog postove,
+   izmene ovde važe za sve postove i za tools/templates/blog_post.html */
+.blog-related {
+    padding: 4rem 0;
+    background: var(--clr-bg-warm);
+}
+
+.blog-related__slider-wrap {
+    position: relative;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.blog-related__track {
+    display: flex;
+    gap: 1.5rem;
+    transition: transform 0.4s ease;
+}
+
+.blog-related-card {
+    flex: 0 0 calc((100% - 3rem) / 3);
+    background: var(--clr-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+.blog-related-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.blog-related-card__img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.blog-related-card__body {
+    padding: 1.25rem;
+}
+
+.blog-related-card__title {
+    font-family: var(--ff-heading);
+    font-size: 1rem;
+    color: var(--clr-dark);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.blog-related-card__meta {
+    font-size: 0.8rem;
+    color: var(--clr-text);
+    opacity: 0.7;
+}
+
+.blog-related__nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.blog-related__btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--clr-primary);
+    background: transparent;
+    color: var(--clr-primary);
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.blog-related__btn:hover {
+    background: var(--clr-primary);
+    color: var(--clr-white);
+}
+
+.blog-related__btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+@media (max-width: 900px) {
+    .blog-related-card { flex: 0 0 calc((100% - 1.5rem) / 2); }
+}
+
+@media (max-width: 600px) {
+    .blog-related-card { flex: 0 0 100%; }
+}
+
+
 /* ═══════════════════════════════════════════════════════
    RESPONSIVE - TABLET (max 968px)
    ═══════════════════════════════════════════════════════ */
@@ -3591,3 +3693,105 @@ em {
 
 /* Per-page palette overrides — uklonjeno, sve stranice koriste default (topao off-white + brand gold).
    Klase .svc-hero--<slug> ostaju u HTML-u za buduće override-ove, ali sad ne menjaju izgled. */
+
+
+/* ═══════════════════════════════════════════════════════
+   ŠTAMPA FOTOGRAFIJA - istaknuta cena + tabela paketa
+   ═══════════════════════════════════════════════════════ */
+.print-highlight {
+    max-width: 720px;
+    margin: 0 auto var(--space-2xl);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, rgba(184,134,11,.08), rgba(212,168,67,.04));
+    border: 1px solid var(--clr-border);
+    text-align: center;
+}
+
+.print-highlight__price {
+    display: block;
+    font-family: var(--ff-heading);
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-dark);
+    line-height: 1.1;
+}
+
+.print-highlight__label {
+    font-size: var(--fs-sm);
+    color: var(--clr-text-light);
+    margin-top: var(--space-sm);
+    line-height: 1.7;
+}
+
+.print-table__wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius-lg);
+    background: var(--clr-white);
+}
+
+.print-table {
+    width: 100%;
+    min-width: 420px;
+    border-collapse: collapse;
+    font-size: var(--fs-sm);
+}
+
+.print-table th,
+.print-table td {
+    padding: var(--space-md) var(--space-lg);
+    text-align: left;
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.print-table thead th {
+    font-size: var(--fs-xs);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-weight: var(--fw-semibold);
+    color: var(--clr-text-light);
+    background: var(--clr-bg-warm);
+}
+
+.print-table tbody tr:last-child td { border-bottom: none; }
+.print-table tbody tr:hover { background: var(--clr-bg-soft); }
+
+.print-table__count {
+    font-weight: var(--fw-medium);
+    color: var(--clr-dark);
+    white-space: nowrap;
+}
+
+.print-table__unit {
+    color: var(--clr-text-light);
+    white-space: nowrap;
+}
+
+.print-table__total {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+    color: var(--clr-primary-dark);
+    white-space: nowrap;
+    text-align: right;
+}
+
+.print-note {
+    max-width: 720px;
+    margin: var(--space-lg) auto 0;
+    font-size: var(--fs-sm);
+    color: var(--clr-text-light);
+    line-height: 1.7;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .print-table th,
+    .print-table td { padding: var(--space-sm) var(--space-md); }
+    .print-highlight { padding: var(--space-lg); }
+    .print-highlight__price { font-size: var(--fs-2xl); }
+}
