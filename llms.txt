@@ -172,7 +172,7 @@ Galerija: https://angelicphoto.rs/galerija.html#krstenja
 - Cena: 200€
 - Broj fotografija: do 150 obrađenih
 - Lokacija: crkva + slavlje
-- Uključeno: crkva + porodične fotografije, kompletno slavlje bez ograničenja, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Uključeno: crkva + porodične fotografije, kompletno slavlje bez ograničenja, ekspresna obrada
 - Rok isporuke: 3 radna dana
 - Napomena: doplata za putne troškove zavisi od tačne lokacije
 
@@ -203,7 +203,7 @@ Galerija: https://angelicphoto.rs/galerija.html#rodjendani
 - Cena: 150€
 - Broj fotografija: do 100 obrađenih
 - Lokacija: studio + lokacija proslave
-- Uključeno: neograničena pokrivenost cele proslave, foto sesija u studiju + fotografisanje proslave, smash the cake uključen, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Uključeno: neograničena pokrivenost cele proslave, foto sesija u studiju + fotografisanje proslave, smash the cake uključen, ekspresna obrada
 - Rok isporuke: 3 radna dana
 - Napomena: doplata za putne troškove važi samo za lokacije van Pančeva, Beograda i Novog Sada
 
@@ -243,7 +243,7 @@ Galerija: https://angelicphoto.rs/galerija.html#biznis
 - Cena: 25€ po osobi (minimum 5 osoba)
 - Broj fotografija: 5 obrađenih po osobi
 - Trajanje: 15-20 minuta po osobi
-- Uključeno: ujednačen stil svih portreta, grupne timske fotografije uključene, dolazak u vašu firmu, putni troškovi uključeni za Pančevo, Beograd, Novi Sad
+- Uključeno: ujednačen stil svih portreta, grupne timske fotografije uključene, dolazak u vašu firmu
 - Napomena: za lokacije van studija dodatno se obračunavaju putni troškovi
 
 ### Biznis događaj
@@ -307,7 +307,7 @@ Galerija: https://angelicphoto.rs/galerija.html#modeling
 - Broj fotografija: do 50 obrađenih
 - Trajanje: neograničeno
 - Lokacija: studio i/ili lokacija po izboru
-- Uključeno: neograničen broj kombinacija garderobe, profesionalni retuš svake fotografije, putni troškovi uključeni (Pančevo, Beograd, Novi Sad), ekspresna obrada
+- Uključeno: neograničen broj kombinacija garderobe, profesionalni retuš svake fotografije, ekspresna obrada
 - Rok isporuke: 3 radna dana
 
 ---
@@ -321,17 +321,17 @@ Sve fotografije se štampaju u formatu 13x18 cm na profesionalnom foto papiru. I
 - Dostupno na: venčanjima, rođendanima, proslavama krštenja
 - Fotografije se štampaju tokom samog slavlja, na licu mesta
 - Plaćaju gosti, na licu mesta, bez naručivanja unapred
-- Mladenci i slavljenici ne plaćaju ništa - štampa za goste je uključena u svaki paket
+- Mladenci i slavljenici ne kupuju komad po komad, za njih važe cene po paketima (vidi cenovnik štampe posle sesije)
 - Uz fotografkinju dolazi i osoba zadužena samo za štampu
 
 ### Štampa fotografija posle sesije (cenovnik po količini)
-- 20 fotografija 13x18: 140 RSD po komadu, ukupno 2.800 RSD
-- 40 fotografija 13x18: 132 RSD po komadu, ukupno 5.300 RSD
-- 60 fotografija 13x18: 125 RSD po komadu, ukupno 7.500 RSD
-- 100 fotografija 13x18: 115 RSD po komadu, ukupno 11.500 RSD
-- 150 fotografija 13x18: 106 RSD po komadu, ukupno 15.900 RSD
-- Što više fotografija se bira, niža je cena po komadu
-- Korice foto albuma: +3.000 RSD, uz bilo koji broj fotografija
+- 20 fotografija 13x18: 2.500 RSD
+- 40 fotografija 13x18: 4.800 RSD
+- 60 fotografija 13x18: 6.900 RSD
+- 100 fotografija 13x18: 10.500 RSD
+- 150 fotografija 13x18: 13.800 RSD
+- Cena je fiksna po paketu, prema broju fotografija
+- Foto album: doplata po želji
 - Štampa se radi iz fotografija sa vaše sesije
 - Za slanje poštom se dodaje doplata za dostavu
 
@@ -366,7 +366,7 @@ Promena termina je moguća uz najavu minimum 48 sati unapred.
 Zavisi od paketa. Standardna obrada je 7-10 radnih dana, ekspresna obrada 2-5 radnih dana. Za venčanja do 2 nedelje, sa teaser fotografijama za 48 sati.
 
 **Da li su putni troškovi uključeni?**
-Za studio sesije u Pančevu nema putnih troškova. Za lokacije van studija putni troškovi se dogovaraju individualno. Premium paketi kod većine usluga uključuju putne troškove za Pančevo, Beograd i Novi Sad.
+Za studio sesije u Pančevu nema putnih troškova. Za sve lokacije van Pančeva se dodaje doplata za putne troškove, koja zavisi od tačne lokacije, i to važi za svaki paket.
 
 ---
 
