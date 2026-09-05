@@ -3748,6 +3748,13 @@ em {
     border-bottom: 1px solid var(--clr-border);
 }
 
+/* Poslednja kolona (cena) desno poravnata. Specifičnost mora da nadjača
+   pravilo iznad, zato selektor sa elementom a ne samo klasa. */
+.print-table th:last-child,
+.print-table td:last-child {
+    text-align: right;
+}
+
 .print-table thead th {
     font-size: var(--fs-xs);
     letter-spacing: .08em;
